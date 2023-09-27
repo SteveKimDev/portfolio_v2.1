@@ -1,7 +1,7 @@
 import * as React from 'react';
 
 import Header from './header';
-// import Footer from './footer';
+import Footer from './footer';
 
 import './styles/layout.css';
 
@@ -10,7 +10,7 @@ const Layout = ({ children }) => {
     <div>
       <Header />
       <main>{children}</main>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 };
