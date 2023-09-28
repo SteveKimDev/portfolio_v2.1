@@ -153,13 +153,13 @@ const Subtitle = () => {
         <animated.span style={fadeInUp3}>{subtitle[3]}</animated.span>
         <animated.span style={fadeInUp4}>{subtitle[4]}</animated.span>
         <animated.span style={fadeInUp5}>{subtitle[5]}</animated.span>
-        <animated.span style={fadeInUp6} className={Home.space}>
+        <animated.span style={fadeInUp6} className='space'>
           {subtitle[6]}
         </animated.span>
 
         {/* On */}
         <animated.span style={fadeInUp7}>{subtitle[7]}</animated.span>
-        <animated.span style={fadeInUp8} className={Home.space}>
+        <animated.span style={fadeInUp8} className='space'>
           {subtitle[8]}
         </animated.span>
       </div>

@@ -21,7 +21,7 @@ h4,
 h5,
 h6 {
   font-family: 'Josefin Sans', sans-serif;
-  font-weight: 300;
+  font-weight: 200;
 }
 
 .row {
@@ -52,6 +52,11 @@ a:hover {
   margin-right: auto;
 }
 
+.space::after {
+  content: ' ';
+  white-space: pre;
+}
+
 /* Header Section */
 .header {
   padding: 40px;
@@ -59,14 +64,14 @@ a:hover {
 
 .stack1 span {
   font-size: 3rem;
-  font-weight: 300;
+  font-weight: 200;
 }
 
 .menu-btn {
   display: flex;
   color: #ffffff;
   font-size: 2rem;
-  font-weight: 300;
+  font-weight: 200;
   background-color: transparent;
   border: none;
   padding: 0 0 5px 0;
@@ -105,7 +110,7 @@ a:hover {
   top: 45px;
   right: 35px;
   font-size: 2rem;
-  font-weight: 300;
+  font-weight: 200;
   color: #333333;
   background-color: transparent;
   border: none;
@@ -138,7 +143,7 @@ a:hover {
 .nav-link-div a {
   color: #333333;
   font-size: 5vw;
-  font-weight: 300;
+  font-weight: 200;
   font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -250,7 +255,7 @@ a:hover {
 
 /* Footer Section */
 .footer-section {
-  margin: 0 5vw 100px;
+  margin: 0 10% 100px;
 }
 
 .space::after {
@@ -269,9 +274,9 @@ a:hover {
 }
 
 .email-div {
-  font-size: 7.83vw;
+  font-size: 7.05vw;
   letter-spacing: 1px;
-  margin-top: -50px;
+  margin-top: -30px;
 }
 
 .email-div a::after {
@@ -302,7 +307,6 @@ a:hover {
 
 .social-span a {
   color: #dddddd;
-  font-weight: 300;
 }
 .social-span a::after {
   position: absolute;
@@ -331,7 +335,7 @@ a:hover {
     margin: 0 40px 100px;
   }
   .email-div {
-    font-size: 7.7vw;
+    font-size: 7.8vw;
     margin-top: -20px;
   }
   .email-div a::after {
@@ -354,7 +358,7 @@ a:hover {
     line-height: 50%;
   }
   .email-div {
-    font-size: 7vw;
+    font-size: 7.35vw;
     margin-top: 0;
     text-align: center;
   }

@@ -140,7 +140,7 @@ const HeroTitle = () => {
       {/* Line 1 */}
       <div className={Home.titleLine}>
         {/* A */}
-        <animated.h1 style={fadeInUp0} className={Home.space}>
+        <animated.h1 style={fadeInUp0} className='space'>
           {title[0]}
         </animated.h1>
 
