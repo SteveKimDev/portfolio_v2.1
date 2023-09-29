@@ -14,7 +14,7 @@ const calc = (x, y) => [
 const trans = (x, y, s) =>
   `perspective(600px) rotateX(${x}deg) rotateY(${y}deg) scale(${s})`;
 
-const Project01 = () => {
+const Project02 = () => {
   // animation for image
   const [props, set] = useSpring(() => ({
     xys: [0, 0, 1],
@@ -57,20 +57,20 @@ const Project01 = () => {
             layers={[
               {
                 image:
-                  'https://res.cloudinary.com/stevekim/image/upload/q_auto/v1673393869/FSD%20Sign%20Up/cover-image_rbvjch.webp',
+                  'https://res.cloudinary.com/stevekim/image/upload/q_auto/v1653508626/ebl/ebl-cover_b3jmno.webp',
                 speed: -5,
               },
             ]}
             style={{ aspectRatio: '2 / 1' }}
-            className={`${Home.image} ${Home.project1}`}
+            className={`${Home.image} ${Home.project2}`}
           />
         </animated.div>
       </Link>
       <animated.div style={fadeInUp01} className={Home.projectTitleDiv}>
-        <span className={`green-text ${Home.projectOrder}`}>01</span>
+        <span className={`green-text ${Home.projectOrder}`}>02</span>
         <span className={`${Home.projectTitle}`}>
-          First String
-          <br /> Digital
+          English Book
+          <br /> Ladder
         </span>
       </animated.div>
       <animated.div style={fadeInUp02}>
@@ -80,4 +80,4 @@ const Project01 = () => {
   );
 };
 
-export default Project01;
+export default Project02;

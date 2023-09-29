@@ -3,6 +3,7 @@ import { Row, Col } from 'react-bootstrap';
 
 import Title from './02-title';
 import Project01 from './03-project1';
+import Project02 from './04-project2';
 
 import * as Home from '../home.module.css';
 
@@ -26,7 +27,7 @@ const ProjectSection = () => {
       {/* Row 3 */}
       <Row>
         <Col sm={12}>
-          <Project01 />
+          <Project02 />
         </Col>
       </Row>
 
