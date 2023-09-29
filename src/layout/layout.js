@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { ParallaxProvider } from 'react-scroll-parallax';
 
 import Header from './header';
 import Footer from './footer';
@@ -7,11 +8,13 @@ import './styles/layout.css';
 
 const Layout = ({ children }) => {
   return (
-    <div>
-      <Header />
-      <main>{children}</main>
-      <Footer />
-    </div>
+    <ParallaxProvider scrollAxis='vertical'>
+      <div>
+        <Header />
+        <main>{children}</main>
+        <Footer />
+      </div>
+    </ParallaxProvider>
   );
 };
 

@@ -29,6 +29,7 @@
     "react-bootstrap": "^2.9.0",
     "react-dom": "^18.2.0",
     "react-helmet": "^6.1.0",
+    "react-scroll-parallax": "^3.4.2",
     "react-spring": "^9.7.3",
     "react-waypoint": "^10.3.0"
   }
