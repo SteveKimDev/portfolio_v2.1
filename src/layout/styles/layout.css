@@ -324,7 +324,7 @@ a:hover {
   height: 0px;
   width: 0px;
   z-index: 100;
-  transition: width 0.5s linear;
+  transition: width 0.75s linear;
 }
 
 .email-div a:hover::after {
