@@ -23,6 +23,24 @@ h6 {
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 200;
 }
+section {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+@media (max-width: 991px) {
+  section {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
+
+@media (max-width: 575px) {
+  section {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+}
 
 .row {
   --bs-gutter-x: 0;
@@ -40,6 +58,24 @@ a:hover {
 
 .relative {
   position: relative;
+}
+
+.horizontal-rule {
+  color: #dddddd;
+  opacity: 0.5;
+  margin: 150px 0;
+}
+
+@media (max-width: 991px) {
+  .horizontal-rule {
+    margin: 125px 0;
+  }
+}
+
+@media (max-width: 575px) {
+  .horizontal-rule {
+    margin: 100px 0;
+  }
 }
 
 .green-text {
@@ -255,7 +291,7 @@ a:hover {
 
 /* Footer Section */
 .footer-section {
-  margin: 0 10% 100px;
+  margin-bottom: 100px;
 }
 
 .space::after {
@@ -331,9 +367,6 @@ a:hover {
 }
 
 @media (max-width: 991px) {
-  .footer-section {
-    margin: 0 40px 100px;
-  }
   .email-div {
     font-size: 7.8vw;
     margin-top: -20px;
@@ -348,7 +381,7 @@ a:hover {
 
 @media (max-width: 575px) {
   .footer-section {
-    margin: 0 25px 50px;
+    margin-bottom: 50px;
   }
   .title-section {
     display: block;

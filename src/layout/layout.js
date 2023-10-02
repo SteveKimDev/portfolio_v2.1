@@ -2,6 +2,7 @@ import * as React from 'react';
 import { ParallaxProvider } from 'react-scroll-parallax';
 
 import Header from './header';
+import HorizontalRule from '../components/hr';
 import Footer from './footer';
 
 import './styles/layout.css';
@@ -12,6 +13,7 @@ const Layout = ({ children }) => {
       <div>
         <Header />
         <main>{children}</main>
+        <HorizontalRule />
         <Footer />
       </div>
     </ParallaxProvider>

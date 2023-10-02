@@ -2,7 +2,7 @@
 
 .hero-section {
   position: relative;
-  margin: 15vh 10% 0;
+  margin-top: 15vh;
 }
 
 .hero-section .title-line,
@@ -95,7 +95,7 @@
 @media (max-width: 991px) {
   /* Hero Section */
   .hero-section {
-    margin: 100px 40px 0;
+    margin-top: 100px;
   }
   .hero-section .title-line h1 {
     font-size: 12vw;
@@ -123,7 +123,7 @@
 @media (max-width: 575px) {
   /* Hero Section */
   .hero-section {
-    margin: 50px 25px 0;
+    margin-top: 50px;
   }
   .hero-section .title-line h1 {
     font-size: 20.7vw;
@@ -156,13 +156,12 @@
 }
 
 /* Project Section */
-
-.project-section {
-  margin: 150px 10%;
-}
-
 .project-row-1 {
   margin-bottom: 50px;
+}
+
+.project-row {
+  margin-bottom: 150px;
 }
 
 .project-section .title-div,
@@ -174,10 +173,6 @@
   font-size: 5.5vw;
   text-transform: uppercase;
   line-height: 100%;
-}
-
-.project-div {
-  margin-bottom: 150px;
 }
 
 .image {
@@ -237,6 +232,7 @@
   font-size: 1rem;
   letter-spacing: 3px;
   margin-top: 30px;
+  margin-bottom: 0;
 }
 
 @media (max-width: 1199px) {
@@ -252,8 +248,8 @@
 
 @media (max-width: 991px) {
   /* Project Section */
-  .project-section {
-    margin: 150px 40px;
+  .project-row {
+    margin-bottom: 125px;
   }
   .image {
     width: 65vw !important;
@@ -271,9 +267,8 @@
 }
 
 @media (max-width: 575px) {
-  /* Project Section */
-  .project-section {
-    margin: 100px 25px;
+  .project-row {
+    margin-bottom: 100px;
   }
   .project-section .title-div {
     display: block;
@@ -300,6 +295,6 @@
     text-align: left;
     font-size: 0.75rem;
     letter-spacing: 3px;
-    margin-top: 30px;
+    margin-top: 10px;
   }
 }

@@ -40,7 +40,7 @@ const Project02 = () => {
   });
 
   return (
-    <div className={`relative ${Home.projectDiv}`}>
+    <div className='relative'>
       <Link to='/first-string-digital-sign-up'>
         <animated.div
           onMouseMove={({ clientX: x, clientY: y }) => set({ xys: calc(x, y) })}

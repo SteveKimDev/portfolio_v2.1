@@ -38,7 +38,7 @@ const FooterSection = () => {
   });
 
   return (
-    <div id='Footer' className='footer-section'>
+    <section id='Footer' className='footer-section'>
       <Waypoint
         bottomOffset='20%'
         onEnter={() => {
@@ -101,7 +101,7 @@ const FooterSection = () => {
           </a>
         </span>
       </animated.div>
-    </div>
+    </section>
   );
 };
 

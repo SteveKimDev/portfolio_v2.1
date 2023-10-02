@@ -18,21 +18,21 @@ const ProjectSection = () => {
       </Row>
 
       {/* Row 2 */}
-      <Row>
+      <Row className={Home.projectRow}>
         <Col sm={12}>
           <Project01 />
         </Col>
       </Row>
 
       {/* Row 3 */}
-      <Row>
+      <Row className={Home.projectRow}>
         <Col sm={12}>
           <Project02 />
         </Col>
       </Row>
 
       {/* Row 4 */}
-      <Row>
+      <Row className={Home.projectRow}>
         <Col sm={12}>
           <Project01 />
         </Col>
