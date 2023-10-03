@@ -2,12 +2,11 @@
 
 .hero-section {
   position: relative;
-  margin-top: 15vh;
+  margin-top: 10vh;
 }
 
 .hero-section .title-line,
-.hero-section .subtitle-line,
-.hero-section .subtitle-section {
+.hero-section .subtitle-line {
   display: flex;
   position: relative;
   z-index: 10;
@@ -18,15 +17,21 @@
   line-height: 80%;
 }
 
+.subtitle-section {
+  line-height: 8vh;
+  position: relative;
+  z-index: 10;
+}
+
 .subtitle-line span {
   color: #61d0d0;
-  font-size: 4.8vw;
+  font-size: 4vw;
   font-weight: 200;
 }
 
 .hero-img {
   position: absolute;
-  top: -50px;
+  top: 0px;
   right: 0;
   width: 90%;
   z-index: -10;
@@ -95,14 +100,16 @@
 @media (max-width: 991px) {
   /* Hero Section */
   .hero-section {
-    margin-top: 100px;
+    margin-top: 50px;
   }
   .hero-section .title-line h1 {
     font-size: 12vw;
     line-height: 80%;
   }
+  .subtitle-section {
+    line-height: 5vh;
+  }
   .hero-img {
-    top: -50px;
     width: 100%;
   }
   .description-section {
@@ -126,7 +133,7 @@
     margin-top: 50px;
   }
   .hero-section .title-line h1 {
-    font-size: 20.7vw;
+    font-size: 5rem;
     line-height: 80%;
   }
   .hero-img {
@@ -138,16 +145,16 @@
     margin-top: 75px;
   }
   .subtitle-line span {
-    font-size: 8.6vw;
+    font-size: 2rem;
   }
   .description-section {
     padding-top: 25px;
   }
   .description {
-    font-size: 6vw;
+    font-size: 1.4rem;
   }
   .link-div a {
-    font-size: 7.7vw;
+    font-size: 2rem;
   }
   .arrow-right {
     width: 10vw;
@@ -274,7 +281,7 @@
     display: block;
   }
   .project-section .title-line h1 {
-    font-size: 10vw;
+    font-size: 3.5rem;
   }
   .image {
     width: 100% !important;
@@ -288,7 +295,7 @@
     display: none;
   }
   .project-title {
-    font-size: 45px;
+    font-size: 3rem;
     margin-left: 0;
   }
   .category {

@@ -39,7 +39,7 @@ const Description = () => {
         <animated.p style={fadeInUp1}>
           Combining product design expertise with web development experience, I
           offer a unique perspective to create engaging, user-friendly websites,
-          utilizing both technical and creative problem-solving skills.
+          utilizing both creative and technical problem-solving skills.
         </animated.p>
 
         {/* Link */}
