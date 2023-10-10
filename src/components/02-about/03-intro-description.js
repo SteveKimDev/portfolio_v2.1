@@ -7,7 +7,7 @@ const IntroDescription = () => {
   const fadeInUp = useSpring({
     from: { opacity: 0, translateY: '20px' },
     to: { opacity: 1, translateY: '0px' },
-    delay: 1000,
+    delay: 900,
     config: { duration: 500 },
   });
   return (
