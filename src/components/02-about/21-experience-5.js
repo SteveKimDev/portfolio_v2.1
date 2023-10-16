@@ -27,38 +27,37 @@ const ExperienceFive = () => {
       <animated.div style={fadeInUp1}>
         <Accordion.Item eventKey='4' className={` ${About.experiencesItem}`}>
           <Accordion.Header className={`${About.experiencesItemTitle}`}>
-            FE Developer at Nomad Software Consulting
+            Product Designer &amp; Frontend Developer - First String Digtial
           </Accordion.Header>
           <Accordion.Body className={`${About.experiencesItemDescription}`}>
-            <p>Jan 2015 - Feb 2017</p>
+            <p>January 2018 - May 2021</p>
             <p>
-              Nomad Software Consulting is a web agency focused on helping small
-              to medium sized businesses to increase their website's online
-              presence, branding, and social media marketing strategies.
+              During my time at First String Digital, a web design agency
+              focused on the restaurant industry, I assumed a leadership role in
+              spearheading the design efforts for several critical components of
+              the company's offerings. Notably, I played a pivotal role in the
+              enhancement and refinement of First String Digital's website
+              templates, the development of a customer dashboard platform, and
+              the design and optimization of the user sign-up process.
             </p>
-            <ul>
-              <li>
-                Maintained coding standards and expectations for the web
-                building team.
-              </li>
-              <li>
-                Applied HTML, CSS, Javascript to applications with an emphasis
-                on cross-browser compatibility.
-              </li>
-              <li>
-                Converted Photoshop or Illustrator designs into functional web
-                pages.
-              </li>
-              <li>Created graphics and optimized them for the web.</li>
-              <li>
-                Added and modified Javascript code to pages for increased
-                functionality.
-              </li>
-              <li>
-                Provided technical coding support, and site maintenance for
-                customers.
-              </li>
-            </ul>
+            <p>
+              Working closely and collaboratively with the development team, I
+              contributed significantly to the design and implementation of
+              content models within the Contentful CMS platform. The content
+              models were strategically crafted to seamlessly integrate with the
+              customer platform and the website templates, ensuring a cohesive
+              and efficient user experience across all facets of our digital
+              solutions.
+            </p>
+            <p>
+              My involvement in these initiatives not only underscored my
+              proficiency in design but also highlighted my ability to synergize
+              with cross-functional teams to align design principles with
+              technical feasibility. This collaborative approach ultimately
+              resulted in the successful development and delivery of
+              user-friendly, visually appealing, and highly functional digital
+              solutions tailored to each client’s unique needs.
+            </p>
           </Accordion.Body>
         </Accordion.Item>
       </animated.div>

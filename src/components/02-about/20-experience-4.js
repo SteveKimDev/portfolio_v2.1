@@ -27,57 +27,35 @@ const ExperienceFour = () => {
       <animated.div style={fadeInUp1}>
         <Accordion.Item eventKey='3' className={` ${About.experiencesItem}`}>
           <Accordion.Header className={`${About.experiencesItemTitle}`}>
-            UX/UI Designer at StitchIt Media
+            Senior Product Designer - Lemonlight (contract)
           </Accordion.Header>
           <Accordion.Body className={`${About.experiencesItemDescription}`}>
-            <p>Feb 2017 - Nov 2017</p>
+            <p>August 2022 - November 2022 </p>
             <p>
-              StitchIt Media was a collaborative mobile video application that
-              aimed to emphasize the fun and social connection of creating and
-              sharing videos. StitchIt provided users with an easy and intuitive
-              experience creating 10 second videos to append their video clips
-              with one button interaction. The platform seamlessly edited and
-              combined videos into one action shot, complete with transitions,
-              and the ability to add emojis, filters, music and AR themes.
+              As a Senior Product Designer at Lemonlight, I successfully led
+              design initiatives for the company's project management platform.
+              Working closely with the Director of Product Management, I played
+              a key role in exploring and ideating the design direction for
+              Lemonlight's innovative two-sided marketplace project management
+              platform. I contributed to the architecture of the user's journey,
+              ensuring seamless alignment with all business requirements. By
+              focusing on solving design obstacles, I consistently crafted
+              positive user experiences and implemented industry best practices.
             </p>
-            <ul>
-              <li>
-                Researched direct and indirect competitors to uncover advantages
-                and disadvantages, and determine market share and viability.
-              </li>
-              <li>
-                Brainstormed and tested the application name by conducting
-                interviews and gathering data.
-              </li>
-              <li>
-                Researched viability of the StitchIt application and its
-                features through interviews and surveys.
-              </li>
-              <li>
-                Identified pain points, created personas, user stories, and user
-                journey map.
-              </li>
-              <li>
-                Defined StitchIt app’s value proposition, based on the research
-                and data-gathering.
-              </li>
-              <li>
-                Ideated the design with a comprehensive user flow, storyboard,
-                information architecture, and wireframe.
-              </li>
-              <li>
-                Designed and assisted in building an MVP and validated the
-                prototype through usability studies.
-              </li>
-              <li>
-                Iterated on the design based on results analysis from usability
-                studies.
-              </li>
-              <li>
-                Spearheaded a marketing campaign to obtain email sign-ups for
-                first adopters to use and test the StitchIt application.
-              </li>
-            </ul>
+            <p>
+              Thriving in a fast-paced startup environment, I demonstrated
+              exceptional adaptability, swiftly executing design changes and
+              efficiently managing multiple concurrent tasks through meticulous
+              organization and prioritization. I effectively communicated my
+              findings and design options to key stakeholders, including the
+              Director of Product Management and Lemonlight's product team.
+            </p>
+            <p>
+              Moreover, I excelled in translating wireframes into high-fidelity
+              designs, conducting rigorous prototyping and testing, and
+              iterating designs to deliver exceptional results. I ensured a
+              seamless hand-off to the development team for implementation.
+            </p>
           </Accordion.Body>
         </Accordion.Item>
       </animated.div>

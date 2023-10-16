@@ -27,52 +27,39 @@ const ExperienceThree = () => {
       <animated.div style={fadeInUp1}>
         <Accordion.Item eventKey='2' className={`${About.experiencesItem}`}>
           <Accordion.Header className={`${About.experiencesItemTitle}`}>
-            Product Designer &amp; FE Developer at First String Digital
+            Product Designer &amp; Frontend Developer - Freelance
           </Accordion.Header>
           <Accordion.Body className={`${About.experiencesItemDescription}`}>
-            <p>Jan 2018 - May 2021</p>
+            <p>May 2021 - Present</p>
             <p>
-              First String Digital is a web design agency focused on helping
-              small businesses achieve their goals through thoughtful design,
-              modern technologies, and effective brand strategy. I specialized
-              in all design concepts and code development for the website
-              projects from inception to release.
+              As a Freelance Product Designer and Frontend Developer, I leverage
+              my expertise to effectively manage and execute web implementation
+              projects, ensuring their success by aligning them with my clients'
+              specific needs. My approach involves in-depth research and the
+              formulation of strategic design solutions, always with a strong
+              emphasis on enhancing the user experience and ensuring the
+              functionality of features. This process results in the creation of
+              production-ready deliverables.
             </p>
-            <ul>
-              <li>
-                Performed full content review of the client’s existing website.
-              </li>
-              <li>
-                Quickly learned about the client’s goals, challenges, brand
-                position, and target audience by utilizing the sprint design
-                paradigm.
-              </li>
-              <li>
-                Developed a strong content and brand strategy to use as a
-                guidepost for the design and development implementation.
-              </li>
-              <li>
-                Utilized a mobile-first design strategy, designing all the
-                websites with clean, easy to navigate workflows that excel on
-                all device profiles.
-              </li>
-              <li>
-                Developed the websites using modern Jamstack architecture with
-                GatsbyJS, React, GraphQL, Netlify, and Contentful headless CMS.
-              </li>
-              <li>
-                Developed website architecture integrating APIs for e-commerce,
-                user authentication, headless CMS, Digital Asset Management, and
-                localization/ translation services increasing the overall value
-                of the system.
-              </li>
-              <li>
-                Devised and created the content strategy & content model for the
-                website based on business goals and objectives. This directly
-                contributed to increasing user engagement and client sign-ups by
-                50%.
-              </li>
-            </ul>
+            <p>
+              Throughout my career, I have achieved success across a wide
+              spectrum of projects spanning various industries. I have partnered
+              with commercial and marketing businesses to craft visually
+              captivating and user-friendly websites, effectively promoting
+              their products and services. In the realm of education, I have
+              collaborated with institutions to design and develop intuitive
+              platforms, enhancing the overall user experience through rigorous
+              user research. Furthermore, I have joined forces with small-sized
+              businesses to construct robust online platforms tailored to their
+              specific requirements, ultimately helping them establish a
+              formidable online presence.
+            </p>
+            <p>
+              My extensive experience across these diverse sectors has sharpened
+              my ability to adapt to varying client demands, allowing me to
+              consistently deliver bespoke solutions that align with the unique
+              objectives of each project.
+            </p>
           </Accordion.Body>
         </Accordion.Item>
       </animated.div>

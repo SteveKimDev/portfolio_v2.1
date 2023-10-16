@@ -27,44 +27,30 @@ const ExperienceOne = () => {
       <animated.div style={fadeInUp1}>
         <Accordion.Item eventKey='0' className={` ${About.experiencesItem}`}>
           <Accordion.Header className={`${About.experiencesItemTitle}`}>
-            Senior Product Designer at Lemonlight (contract)
+            UX / IA / Content Strategist - Action Digital (contract)
           </Accordion.Header>
           <Accordion.Body className={`${About.experiencesItemDescription}`}>
-            <p>Aug 2022 - Nov 2022</p>
+            <p>June 2023 - Present</p>
             <p>
-              Lemonlight is an on-demand video production company that
-              specializes in performance creative for brands and agencies across
-              the globe.
+              At Action Digital, I serve as a UX Designer, Information
+              Architect, and Content Strategist, contributing to the success of
+              website and mobile app projects. My key responsibilities include
+              conducting extensive research to develop detailed user personas,
+              crafting user journeys to enhance the overall user experience,
+              steering the design approach and user flow for optimal usability,
+              proposing the function specification for the mobile app news feed,
+              and the mobile app gamification feature.
             </p>
-            <ul>
-              <li>
-                Closely collaborated with the Director of Product Management
-                exploring and ideating the design direction for their new
-                two-sided marketplace workflow management platform.
-              </li>
-              <li>
-                Contributed to the architecture of the user’s journey to ensure
-                all business requirements were met.
-              </li>
-              <li>
-                Solved design obstacles to create a positive user experience,
-                while applying industry best practices.
-              </li>
-              <li>
-                In the fast-paced startup environment, I quickly adapted and
-                executed design changes when needed. By being highly organized
-                and prioritizing numerous concurrent tasks.
-              </li>
-              <li>
-                Presented my findings and design options to the Director of
-                Product Management and Lemonlight’s product team.
-              </li>
-              <li>
-                Other responsibilities included translating wireframes into
-                high-fidelity designs. Prototyping and testing design options,
-                then iterating on the designs when needed.
-              </li>
-            </ul>
+            <p>
+              Additionally, I play a pivotal role in the design process by
+              organizing and wireframing page layouts, structuring sitemaps, and
+              organizing content to facilitate seamless navigation. My expertise
+              extends to developing comprehensive content strategies, ensuring
+              that the website and mobile apps convey the intended message
+              effectively. Moreover, I formulate content migration strategies to
+              streamline the transition of existing content to new platforms,
+              contributing to project efficiency and success.
+            </p>
           </Accordion.Body>
         </Accordion.Item>
       </animated.div>
