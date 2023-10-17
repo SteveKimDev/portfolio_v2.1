@@ -210,11 +210,11 @@
 }
 
 .project1:hover {
-  box-shadow: 0px 30px 50px -10px rgba(0, 133, 255, 0.3);
+  box-shadow: 0px 10px 30px -5px rgba(180, 229, 247, 0.3);
 }
 
 .project2:hover {
-  box-shadow: 0px 30px 50px -10px rgba(253, 112, 98, 0.3);
+  box-shadow: 0px 15px 30px -5px rgba(0, 133, 255, 0.3);
 }
 
 .project-title-div {

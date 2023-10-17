@@ -41,7 +41,7 @@ const Project01 = () => {
 
   return (
     <div className='relative'>
-      <Link to='/first-string-digital-sign-up'>
+      <Link to='/icbc'>
         <animated.div
           onMouseMove={({ clientX: x, clientY: y }) => set({ xys: calc(x, y) })}
           onMouseLeave={() => set({ xys: [0, 0, 1] })}
@@ -57,7 +57,7 @@ const Project01 = () => {
             layers={[
               {
                 image:
-                  'https://res.cloudinary.com/stevekim/image/upload/q_auto/v1673393869/FSD%20Sign%20Up/cover-image_rbvjch.webp',
+                  'https://res.cloudinary.com/stevekim/image/upload/q_auto/v1697494286/ICBC/ICBC-cover-image_yy57tf.webp',
                 speed: -5,
               },
             ]}
@@ -68,13 +68,10 @@ const Project01 = () => {
       </Link>
       <animated.div style={fadeInUp01} className={Home.projectTitleDiv}>
         <span className={`green-text ${Home.projectOrder}`}>01</span>
-        <span className={`${Home.projectTitle}`}>
-          First String
-          <br /> Digital
-        </span>
+        <span className={`${Home.projectTitle}`}>ICBC</span>
       </animated.div>
       <animated.div style={fadeInUp02}>
-        <p className={`${Home.category}`}>UX/UI Design + Development</p>
+        <p className={`${Home.category}`}>Information Architect</p>
       </animated.div>
     </div>
   );
