@@ -20,22 +20,21 @@ const IntroDetails = () => {
   return (
     <Row className={Projects.detailRow}>
       <Col sm={6} className={Projects.detailCol1}>
-        <animated.div style={fadeInUp1} className={Projects.card}>
+        <animated.div style={fadeInUp1} className='cards'>
           <h3 className={`green-text ${Projects.detailTitle}`}>Problem</h3>
           <p className={Projects.detailDescription}>
-            To streamline the subscription process for new clients, a simpler
-            sign-up method was needed as direct email or phone calls were
-            delaying onboarding.
+            Need to streamline the subscription process for new clients due to
+            the existing delays caused by relying on direct email or phone calls
+            for onboarding.
           </p>
         </animated.div>
       </Col>
       <Col sm={6} className={Projects.detailCol2}>
-        <animated.div style={fadeInUp2} className={Projects.card}>
+        <animated.div style={fadeInUp2} className='cards'>
           <h3 className={`green-text ${Projects.detailTitle}`}>Objective</h3>
           <p className={Projects.detailDescription}>
-            Create a digital sign-up process that enables new clients to input
-            their business information before the consultation call,
-            streamlining the onboarding experience.
+            Design and develop a digital sign-up process that allows new clients
+            to input their business information prior to the consultation call.
           </p>
         </animated.div>
       </Col>

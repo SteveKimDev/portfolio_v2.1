@@ -22,7 +22,7 @@ const Testmonials1 = () => {
     config: { duration: 1000 },
   });
   return (
-    <div className={About.card}>
+    <div className='cards'>
       <Waypoint
         bottomOffset='20%'
         onEnter={() => {

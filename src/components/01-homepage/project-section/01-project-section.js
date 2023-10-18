@@ -20,6 +20,7 @@ const ProjectSection = () => {
       {/* Row 2 */}
       <Row className={Home.projectRow}>
         <Col sm={12}>
+          {/* ICBC */}
           <Project01 />
         </Col>
       </Row>
@@ -27,6 +28,7 @@ const ProjectSection = () => {
       {/* Row 3 */}
       <Row className={Home.projectRow}>
         <Col sm={12}>
+          {/* FSD */}
           <Project02 />
         </Col>
       </Row>

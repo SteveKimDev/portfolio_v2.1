@@ -44,7 +44,6 @@
 
 .detail-title {
   font-size: 1.75vw;
-  font-weight: 300;
 }
 
 .card {
@@ -56,4 +55,32 @@
 .detail-description {
   font-size: 1.25vw;
   margin-bottom: 0;
+}
+
+/* Project Details */
+
+.title-div {
+  margin-bottom: 50px;
+}
+
+.content-title {
+  font-size: 4vw;
+  margin-bottom: 1rem;
+}
+
+.content-description {
+  font-size: 1.25vw;
+}
+
+.pain-point-div-1 {
+  margin-right: 25px;
+}
+
+.pain-point-div-2 {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.pain-point-div-3 {
+  margin-left: 25px;
 }
