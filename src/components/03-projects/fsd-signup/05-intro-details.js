@@ -24,8 +24,8 @@ const IntroDetails = () => {
           <h3 className={`green-text ${Projects.detailTitle}`}>Problem</h3>
           <p className={Projects.detailDescription}>
             Need to streamline the subscription process for new clients due to
-            the existing delays caused by relying on direct email or phone calls
-            for onboarding.
+            delays caused by relying on direct email or phone calls for
+            onboarding.
           </p>
         </animated.div>
       </Col>

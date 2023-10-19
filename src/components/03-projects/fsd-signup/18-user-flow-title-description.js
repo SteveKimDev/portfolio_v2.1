@@ -1,11 +1,10 @@
 import React, { useState } from 'react';
-import { Row, Col } from 'react-bootstrap';
 import { Waypoint } from 'react-waypoint';
 import { useSpring, animated } from 'react-spring';
 
 import * as Projects from '../projects.module.css';
 
-const ContributionTitleDescription = () => {
+const UserFlowTitleDescription = () => {
   // animation on scroll
   const [animate, toggle] = useState(false);
 
@@ -17,7 +16,7 @@ const ContributionTitleDescription = () => {
     config: { duration: 1000 },
   });
   return (
-    <div>
+    <div className={Projects.titleDiv}>
       <Waypoint
         bottomOffset='20%'
         onEnter={() => {
@@ -26,29 +25,17 @@ const ContributionTitleDescription = () => {
       />
       <animated.div style={fadeInUp1}>
         <h2 className={`green-text ${Projects.contentTitle}`}>
-          Responsibilities and Deliverables
+          A path to improving overall experience
         </h2>
-        <Row>
-          <Col lg={6}>
-            <ul
-              className={`${Projects.contentDescription} ${Projects.contentList}`}
-            >
-              <li>User Research</li>
-              <li>User Journey Map</li>
-              <li>Personas</li>
-            </ul>
-          </Col>
-          <Col lg={6}>
-            <ul className={Projects.contentDescription}>
-              <li>User Flow Diagram</li>
-              <li>UI Design</li>
-              <li>Frontend Development</li>
-            </ul>
-          </Col>
-        </Row>
+        <p className={Projects.contentDescription}>
+          Our solution created a direct and simple path. Our user flow and
+          design provided a streamlined and efficient user experience, reducing
+          confusion and delays by offering clear instructions and manageable
+          tasks.
+        </p>
       </animated.div>
     </div>
   );
 };
 
-export default ContributionTitleDescription;
+export default UserFlowTitleDescription;

@@ -12,7 +12,7 @@ const IntroCategory = () => {
   });
   return (
     <animated.p style={fadeInUp} className={Projects.category}>
-      UI/UX Design &amp; Development (2020)
+      Product Design &amp; Development (2020)
     </animated.p>
   );
 };

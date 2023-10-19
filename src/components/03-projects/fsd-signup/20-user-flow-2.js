@@ -2,11 +2,9 @@ import React, { useState } from 'react';
 import { Waypoint } from 'react-waypoint';
 import { useSpring, animated } from 'react-spring';
 
-import Persona2Img from './media/02-persona-img-2';
-
 import * as Projects from '../projects.module.css';
 
-const Persona2 = () => {
+const UserFlow2 = () => {
   // animation on scroll
   const [animate, toggle] = useState(false);
 
@@ -27,22 +25,19 @@ const Persona2 = () => {
       />
       <animated.div
         style={fadeInUp1}
-        className={`cards ${Projects.personaDiv2}`}
+        className={`round ${Projects.flowCardsDiv}`}
       >
-        {/* Persona img */}
-        <Persona2Img />
-
-        {/* persona copy */}
-        <div className={`relative ${Projects.personaCopyDiv}`}>
-          <p className={`center-horizontal ${Projects.detailDescription}`}>
-            The consult rep wants to facilitate a smooth onboarding process, but
-            the lack of basic business information before the consultation calls
-            leads to delays and frustrations.
-          </p>
+        <div className={Projects.flowDescription}>
+          <div className={`green-text ${Projects.flowNumber}`}>2</div>
+          <div>
+            Account
+            <br />
+            Created
+          </div>
         </div>
       </animated.div>
     </>
   );
 };
 
-export default Persona2;
+export default UserFlow2;

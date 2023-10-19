@@ -13,7 +13,6 @@ module.exports = {
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
-    'gatsby-plugin-anchor-links',
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
@@ -44,6 +43,12 @@ module.exports = {
             'serifId',
           ],
         },
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-anchor-links',
+      options: {
+        offset: -100,
       },
     },
   ],

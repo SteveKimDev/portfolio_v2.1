@@ -12,13 +12,13 @@ const PaintPointsSection = () => {
         <Col sm={{ offset: 3, span: 6 }}>
           <PaingPointsTitleDescription />
         </Col>
-        <Col sm={4}>
+        <Col lg={4}>
           <PainPoint1 />
         </Col>
-        <Col sm={4}>
+        <Col lg={4}>
           <PainPoint2 />
         </Col>
-        <Col sm={4}>
+        <Col lg={4}>
           <PainPoint3 />
         </Col>
       </Row>
