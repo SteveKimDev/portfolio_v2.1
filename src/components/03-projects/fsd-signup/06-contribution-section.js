@@ -3,11 +3,11 @@ import { Row, Col } from 'react-bootstrap';
 
 import ContributionTitleDescription from './07-contribution-title-description';
 
-import * as Projects from '../projects.module.css';
+// import * as Projects from '../projects.module.css';
 
 const ContributionSection = () => {
   return (
-    <section className={Projects.section}>
+    <section>
       <Row>
         {/* title & description */}
         <Col sm={{ offset: 3, span: 6 }}>

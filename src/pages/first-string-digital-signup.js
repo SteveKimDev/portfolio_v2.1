@@ -7,7 +7,7 @@ import IntroSection from '../components/03-projects/fsd-signup/01-intro-section'
 import ContributionSection from '../components/03-projects/fsd-signup/06-contribution-section';
 import PaintPointsSection from '../components/03-projects/fsd-signup/08-pain-points-sction';
 // import ScreenshotSection from '../components/fsd-signup/06-screenshot-section';
-// import PersonasSection from '../components/fsd-signup/12-personas-section';
+import PersonasSection from '../components/03-projects/fsd-signup/13-personas-section';
 // import UserFlowSection from '../components/fsd-signup/16-user-flow-section';
 // import TakeawaySection from '../components/fsd-signup/18-takeaway-section';
 // import NextProjectSection from '../components/fsd-signup/20-next-project-section';
@@ -21,8 +21,9 @@ const FirstStringDigtial = () => {
       <ContributionSection />
       <HorizontalRule />
       <PaintPointsSection />
+      <HorizontalRule />
       {/* <ScreenshotSection /> */}
-      {/* <PersonasSection /> */}
+      <PersonasSection />
       {/* <UserFlowSection /> */}
       {/* <TakeawaySection /> */}
       {/* <NextProjectSection /> */}

@@ -84,3 +84,24 @@
 .pain-point-div-3 {
   margin-left: 25px;
 }
+
+.persona-div-1 {
+  display: flex;
+  margin-right: 15px;
+}
+
+.persona-div-2 {
+  display: flex;
+  margin-left: 15px;
+}
+
+.persona-1-img,
+.persona-2-img {
+  width: 7vw;
+  margin-top: 22.5px;
+  margin-right: 20px;
+}
+
+.persona-copy-div {
+  width: 100%;
+}
