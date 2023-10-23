@@ -71,7 +71,9 @@ const Project01 = () => {
         <span className={`${Home.projectTitle}`}>ICBC</span>
       </animated.div>
       <animated.div style={fadeInUp02}>
-        <p className={`${Home.category}`}>Information Architect</p>
+        <p className={`${Home.category}`}>
+          Information Architect &amp; UX Design
+        </p>
       </animated.div>
     </div>
   );
