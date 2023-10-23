@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { AnchorLink } from 'gatsby-plugin-anchor-links';
+import { Link } from 'gatsby';
 
 import ArrowRight from '../../../svg/arrow-right.svg';
 
@@ -25,10 +25,10 @@ const TakeawayTitleDescription = () => {
       </p>
       {/* Link */}
       <div className={`${Projects.linkDiv}`}>
-        <AnchorLink to='/#projects'>
+        <Link to='/#projects'>
           Back to Selected Projects
           <ArrowRight className={`${Projects.arrowRight}`} />
-        </AnchorLink>
+        </Link>
       </div>
     </div>
   );
