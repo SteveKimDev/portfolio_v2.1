@@ -9,7 +9,6 @@ const HorizontalRule = () => {
   // animation for text
   const width = useSpring({
     width: animate ? '100vw' : '0vw',
-    delay: 300,
     config: { duration: 1000 },
   });
   return (
@@ -18,6 +17,24 @@ const HorizontalRule = () => {
         bottomOffset='20%'
         onEnter={() => {
           if (!animate) toggle(true);
+        }}
+      />
+      <Waypoint
+        bottomOffset='20%'
+        onLeave={() => {
+          if (animate) toggle(false);
+        }}
+      />
+      <Waypoint
+        topOffset='20%'
+        onEnter={() => {
+          if (!animate) toggle(true);
+        }}
+      />
+      <Waypoint
+        topOffset='20%'
+        onLeave={() => {
+          if (animate) toggle(false);
         }}
       />
       <animated.hr style={width} className='horizontal-rule' />
