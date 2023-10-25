@@ -33,17 +33,17 @@ const ContributionTitleDescription = () => {
             <ul
               className={`${Projects.contentDescription} ${Projects.contentList}`}
             >
-              <li>User Research</li>
-              <li>Competitive Analysis</li>
-              <li>User Journey Map</li>
-              <li>Personas</li>
+              <li>Define goals &amp; audience</li>
+              <li>Content strategy</li>
+              <li>Information architecture</li>
+              <li>Wireframing &amp; prototyping</li>
             </ul>
           </Col>
           <Col lg={6}>
             <ul className={Projects.contentDescription}>
               <li>UI Design</li>
               <li>Frontend Development</li>
-              <li>Contentful CMS Implementation &amp; training</li>
+              <li>Contentful CMS Content Modeling</li>
             </ul>
           </Col>
         </Row>

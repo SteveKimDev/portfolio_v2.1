@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
 import { Waypoint } from 'react-waypoint';
 import { useSpring, animated } from 'react-spring';
+import { Row, Col } from 'react-bootstrap';
 
-import * as Projects from '../../projects.module.css';
+import TakeawayCopy from './13-takeaway-copy';
 
-const LargeVideo = () => {
+const TakeawaySection = () => {
   // animation on scroll
   const [animate, toggle] = useState(false);
 
@@ -16,26 +17,22 @@ const LargeVideo = () => {
     config: { duration: 1000 },
   });
   return (
-    <>
+    <section>
       <Waypoint
         bottomOffset='20%'
         onEnter={() => {
           if (!animate) toggle(true);
         }}
       />
-      <animated.div
-        style={fadeInUp1}
-        className={`cards ${Projects.largeVideoDiv}`}
-      >
-        <video className={Projects.largeVideo} autoPlay loop muted>
-          <source
-            src='https://res.cloudinary.com/stevekim/video/upload/q_auto/v1655226894/ebl/ebl-home-page_fmg8zy.mp4'
-            type='video/mp4'
-          />
-        </video>
-      </animated.div>
-    </>
+      <Row>
+        <Col sm={{ offset: 3, span: 6 }}>
+          <animated.div style={fadeInUp1}>
+            <TakeawayCopy />
+          </animated.div>
+        </Col>
+      </Row>
+    </section>
   );
 };
 
-export default LargeVideo;
+export default TakeawaySection;

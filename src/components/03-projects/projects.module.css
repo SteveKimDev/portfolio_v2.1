@@ -130,14 +130,20 @@
   margin-top: 50px;
 }
 
-.mobile-first-media-div {
+.video-mobile-div {
+  margin-top: 100px !important;
+}
+
+.mobile-first-media-div,
+.video-mobile-div {
   width: 85%;
   margin: 0 auto;
   display: block;
 }
 
 .ebl-mobile-img,
-.video-ebl-scroll {
+.video-ebl-scroll,
+.video-mobile {
   width: 100%;
   border-radius: 10px;
 }
