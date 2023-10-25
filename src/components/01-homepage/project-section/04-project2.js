@@ -65,18 +65,19 @@ const Project02 = () => {
             className={`${Home.image} ${Home.project2}`}
           />
         </animated.div>
+
+        <animated.div style={fadeInUp01} className={Home.projectTitleDiv}>
+          <span className={`green-text ${Home.projectOrder}`}>02</span>
+          <span className={`${Home.projectTitle}`}>
+            First String
+            <br />
+            Digital
+          </span>
+        </animated.div>
+        <animated.div style={fadeInUp02}>
+          <p className={`${Home.category}`}>Product Design &amp; Development</p>
+        </animated.div>
       </Link>
-      <animated.div style={fadeInUp01} className={Home.projectTitleDiv}>
-        <span className={`green-text ${Home.projectOrder}`}>02</span>
-        <span className={`${Home.projectTitle}`}>
-          First String
-          <br />
-          Digital
-        </span>
-      </animated.div>
-      <animated.div style={fadeInUp02}>
-        <p className={`${Home.category}`}>Product Design + Development</p>
-      </animated.div>
     </div>
   );
 };

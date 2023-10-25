@@ -46,18 +46,20 @@
   font-size: 1.75vw;
 }
 
-.card {
-  box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 1);
-  border-radius: 20px;
-  padding: 50px;
-}
-
 .detail-description {
   font-size: 1.25vw;
   margin-bottom: 0;
 }
 
 /* Project Details */
+.large-video-div {
+  margin-bottom: 100px;
+}
+
+.large-video {
+  width: 100%;
+  border-radius: 10px;
+}
 
 .title-div {
   margin-bottom: 50px;
@@ -120,6 +122,24 @@
 
 .flow-number {
   font-weight: 500;
+}
+
+.mobile-first-img-div-1,
+.mobile-first-img-div-2,
+.mobile-first-img-div-3 {
+  margin-top: 50px;
+}
+
+.mobile-first-media-div {
+  width: 85%;
+  margin: 0 auto;
+  display: block;
+}
+
+.ebl-mobile-img,
+.video-ebl-scroll {
+  width: 100%;
+  border-radius: 10px;
 }
 
 .screenshot-img {
@@ -269,6 +289,11 @@
   }
   .user-flow-row-2 {
     margin: 0 0 50px;
+  }
+  .mobile-img-transform,
+  .video-mobile-transform,
+  .mobile-first-transform {
+    transform: none !important;
   }
   .screenshot-img {
     width: 100%;

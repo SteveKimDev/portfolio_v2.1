@@ -5,6 +5,7 @@ import HorizontalRule from '../components/hr';
 
 import IntroSection from '../components/03-projects/icbc/01-intro-section';
 import ContributionSection from '../components/03-projects/icbc/06-contribution-section';
+import PaintPointsSection from '../components/03-projects/icbc/08-pain-points-sction';
 
 const ICBC = () => {
   return (
@@ -13,6 +14,8 @@ const ICBC = () => {
       <IntroSection />
       <HorizontalRule />
       <ContributionSection />
+      <HorizontalRule />
+      <PaintPointsSection />
     </Layout>
   );
 };

@@ -217,6 +217,10 @@
   box-shadow: 0px 15px 30px -5px rgba(0, 133, 255, 0.3);
 }
 
+.project3:hover {
+  box-shadow: 0px 15px 30px -5px rgba(253, 112, 98, 0.3);
+}
+
 .project-title-div {
   position: absolute;
   bottom: 100px;
