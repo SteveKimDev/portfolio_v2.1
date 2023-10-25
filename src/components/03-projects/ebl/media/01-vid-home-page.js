@@ -4,7 +4,7 @@ import { useSpring, animated } from 'react-spring';
 
 import * as Projects from '../../projects.module.css';
 
-const VideoHomePage = () => {
+const LargeVideo = () => {
   // animation on scroll
   const [animate, toggle] = useState(false);
 
@@ -38,4 +38,4 @@ const VideoHomePage = () => {
   );
 };
 
-export default VideoHomePage;
+export default LargeVideo;

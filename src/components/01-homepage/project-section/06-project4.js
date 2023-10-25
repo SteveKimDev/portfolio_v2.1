@@ -14,7 +14,7 @@ const calc = (x, y) => [
 const trans = (x, y, s) =>
   `perspective(600px) rotateX(${x}deg) rotateY(${y}deg) scale(${s})`;
 
-const Project03 = () => {
+const Project04 = () => {
   // animation for image
   const [props, set] = useSpring(() => ({
     xys: [0, 0, 1],
@@ -41,7 +41,7 @@ const Project03 = () => {
 
   return (
     <div className='relative'>
-      <Link to='/english-book-ladder'>
+      <Link to='/professional-portfolio'>
         <animated.div
           onMouseMove={({ clientX: x, clientY: y }) => set({ xys: calc(x, y) })}
           onMouseLeave={() => set({ xys: [0, 0, 1] })}
@@ -57,21 +57,21 @@ const Project03 = () => {
             layers={[
               {
                 image:
-                  'https://res.cloudinary.com/stevekim/image/upload/q_auto/v1653508626/ebl/ebl-cover_b3jmno.webp',
+                  'https://res.cloudinary.com/stevekim/image/upload/q_auto/v1653508586/natalie/natalie-cover-img_a8lpps.webp',
                 speed: -5,
               },
             ]}
             style={{ aspectRatio: '2 / 1' }}
-            className={`${Home.image} ${Home.project3}`}
+            className={`${Home.image} ${Home.project4}`}
           />
         </animated.div>
 
         <animated.div style={fadeInUp01} className={Home.projectTitleDiv}>
-          <span className={`green-text ${Home.projectOrder}`}>03</span>
+          <span className={`green-text ${Home.projectOrder}`}>04</span>
           <span className={`${Home.projectTitle}`}>
-            English Book
+            Professional
             <br />
-            Ladder
+            Portfolio
           </span>
         </animated.div>
         <animated.div style={fadeInUp02}>
@@ -82,4 +82,4 @@ const Project03 = () => {
   );
 };
 
-export default Project03;
+export default Project04;

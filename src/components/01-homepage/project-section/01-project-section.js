@@ -5,6 +5,7 @@ import Title from './02-title';
 import Project01 from './03-project1';
 import Project02 from './04-project2';
 import Project03 from './05-project3';
+import Project04 from './06-project4';
 
 import * as Home from '../home.module.css';
 
@@ -44,7 +45,7 @@ const ProjectSection = () => {
       {/* Row 5 */}
       <Row>
         <Col sm={12}>
-          <Project01 />
+          <Project04 />
         </Col>
       </Row>
     </section>
