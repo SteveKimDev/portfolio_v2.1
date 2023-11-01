@@ -22,7 +22,7 @@ import ScreenshotImg08 from './media/10-img-screenshot';
 
 import * as Projects from '../projects.module.css';
 
-const PersonasSection = () => {
+const UserFlowSection = () => {
   return (
     <section>
       {/* title and description row */}
@@ -122,4 +122,4 @@ const PersonasSection = () => {
   );
 };
 
-export default PersonasSection;
+export default UserFlowSection;

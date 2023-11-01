@@ -2,9 +2,11 @@ import React, { useState } from 'react';
 import { Waypoint } from 'react-waypoint';
 import { useSpring, animated } from 'react-spring';
 
+import DefinitionPhaseImg from './media/definition-phase-img';
+
 import * as Projects from '../projects.module.css';
 
-const PainPoint3 = () => {
+const Phase2 = () => {
   // animation on scroll
   const [animate, toggle] = useState(false);
 
@@ -12,7 +14,7 @@ const PainPoint3 = () => {
   const fadeInUp1 = useSpring({
     opacity: animate ? 1 : 0,
     translateY: animate ? '0px' : '10px',
-    delay: 500,
+    delay: 100,
     config: { duration: 1000 },
   });
   return (
@@ -25,20 +27,20 @@ const PainPoint3 = () => {
       />
       <animated.div
         style={fadeInUp1}
-        className={`cards align-center ${Projects.painPointDiv3}`}
+        className={`cards align-center ${Projects.phaseDiv2}`}
       >
         <h3 className={`text-center green-text ${Projects.detailTitle}`}>
-          Migration
+          Defintion Phase
         </h3>
         <p className={`text-center ${Projects.detailDescription}`}>
-          Took the lead in manually migrating content that could not be
-          automated. Offered guidance on necessary modifications or additions to
-          Contentful content models. Made significant contributions to the UAT
-          process to validate all page content and layouts.
+          Created a detailed sitemap, defined page templates, tracked sunsetted
+          pages and media assets, made needed template and component redesigns,
+          and contributed to Contentful CMS content model development.
         </p>
+        <DefinitionPhaseImg />
       </animated.div>
     </>
   );
 };
 
-export default PainPoint3;
+export default Phase2;

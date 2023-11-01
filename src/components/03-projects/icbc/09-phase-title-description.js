@@ -4,7 +4,7 @@ import { useSpring, animated } from 'react-spring';
 
 import * as Projects from '../projects.module.css';
 
-const PaingPointsTitleDescription = () => {
+const PhaseTitleDescription = () => {
   // animation on scroll
   const [animate, toggle] = useState(false);
 
@@ -25,7 +25,7 @@ const PaingPointsTitleDescription = () => {
       />
       <animated.div style={fadeInUp1}>
         <h2 className={`green-text ${Projects.contentTitle}`}>
-          Discovery, Definition, and Migration
+          Discover, Define, and Migrate
         </h2>
         <p className={Projects.contentDescription}>
           The Discovery and Definition phases are pivotal for a successful
@@ -38,4 +38,4 @@ const PaingPointsTitleDescription = () => {
   );
 };
 
-export default PaingPointsTitleDescription;
+export default PhaseTitleDescription;

@@ -2,9 +2,11 @@ import React, { useState } from 'react';
 import { Waypoint } from 'react-waypoint';
 import { useSpring, animated } from 'react-spring';
 
+import DiscoveryPhaseImg from './media/discovery-phase-img';
+
 import * as Projects from '../projects.module.css';
 
-const PainPoint2 = () => {
+const Phase1 = () => {
   // animation on scroll
   const [animate, toggle] = useState(false);
 
@@ -12,7 +14,7 @@ const PainPoint2 = () => {
   const fadeInUp1 = useSpring({
     opacity: animate ? 1 : 0,
     translateY: animate ? '0px' : '10px',
-    delay: 300,
+    delay: 100,
     config: { duration: 1000 },
   });
   return (
@@ -25,19 +27,23 @@ const PainPoint2 = () => {
       />
       <animated.div
         style={fadeInUp1}
-        className={`cards align-center ${Projects.painPointDiv2}`}
+        className={`cards align-center ${Projects.phaseDiv1}`}
       >
         <h3 className={`text-center green-text ${Projects.detailTitle}`}>
-          Defintion
+          Discovery Phase
         </h3>
         <p className={`text-center ${Projects.detailDescription}`}>
-          Created a detailed sitemap, defined page templates, tracked retired
-          pages and media assets, made needed template and component redesigns,
-          and contributed to Contentful content model development.
+          Conducted a thorough audit of the legacy website, which involved
+          scrutinizing not only the page hierarchy, page templates, component
+          types, and media asset types but also uncovering any inconsistencies,
+          or opportunities for optimization.
         </p>
+        <div>
+          <DiscoveryPhaseImg />
+        </div>
       </animated.div>
     </>
   );
 };
 
-export default PainPoint2;
+export default Phase1;

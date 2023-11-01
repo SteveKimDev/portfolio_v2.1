@@ -2,9 +2,11 @@ import React, { useState } from 'react';
 import { Waypoint } from 'react-waypoint';
 import { useSpring, animated } from 'react-spring';
 
+import ContentMigrationPhaseImg from './media/content-migration.img';
+
 import * as Projects from '../projects.module.css';
 
-const PainPoint1 = () => {
+const Phase3 = () => {
   // animation on scroll
   const [animate, toggle] = useState(false);
 
@@ -25,20 +27,21 @@ const PainPoint1 = () => {
       />
       <animated.div
         style={fadeInUp1}
-        className={`cards align-center ${Projects.painPointDiv1}`}
+        className={`cards align-center ${Projects.phaseDiv3}`}
       >
         <h3 className={`text-center green-text ${Projects.detailTitle}`}>
-          Discovery
+          Content Migration
         </h3>
         <p className={`text-center ${Projects.detailDescription}`}>
-          Conducted a thorough audit of the legacy website, which involved
-          scrutinizing not only the page hierarchy, page templates, component
-          types, and media asset types but also uncovering any inconsistencies,
-          or opportunities for optimization.
+          Took the lead in manually migrating content that could not be
+          automated. Offered guidance on necessary modifications or additions to
+          Contentful content models. Made significant contributions to the UAT
+          process to validate all page content and layouts.
         </p>
+        <ContentMigrationPhaseImg />
       </animated.div>
     </>
   );
 };
 
-export default PainPoint1;
+export default Phase3;

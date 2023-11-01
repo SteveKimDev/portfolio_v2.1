@@ -33,8 +33,8 @@ const ContributionTitleDescription = () => {
             <ul
               className={`${Projects.contentDescription} ${Projects.contentList}`}
             >
-              <li>Content audit</li>
-              <li>Sitemap</li>
+              <li>Website content audit</li>
+              <li>Sitemap &amp; navigation</li>
               <li>Identify page templates &amp; components</li>
               <li>Contentful content modeling</li>
             </ul>
