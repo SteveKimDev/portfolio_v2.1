@@ -53,15 +53,6 @@ const Phase3 = () => {
           helped refine the architecture, ensuring that it aligned perfectly
           with ICBC's needs.
         </p>
-        <p className={`mb-3 ${Projects.detailDescription}`}>
-          In addition to content migration, I also played a vital role in
-          shaping the content management strategy. I offered valuable insight on
-          necessary modifications or additions to the Contentful content models.
-          This involved identifying opportunities to optimize the content
-          structure, making it more adaptable and user-friendly. My insights
-          helped refine the architecture, ensuring that it aligned perfectly
-          with ICBC's needs.
-        </p>
         <p className={Projects.detailDescription}>
           Furthermore, I made significant contributions to the User Acceptance
           Testing (UAT) process, which was a critical phase in the project. By
