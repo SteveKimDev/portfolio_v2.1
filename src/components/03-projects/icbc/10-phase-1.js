@@ -25,10 +25,7 @@ const Phase1 = () => {
           if (!animate) toggle(true);
         }}
       />
-      <animated.div
-        style={fadeInUp1}
-        className={`cards align-center ${Projects.phaseDiv1}`}
-      >
+      <animated.div style={fadeInUp1} className={`cards ${Projects.phaseDiv1}`}>
         <h3 className={`text-center green-text ${Projects.detailTitle}`}>
           Discovery Phase
         </h3>
@@ -38,9 +35,23 @@ const Phase1 = () => {
           types, and media asset types but also uncovering any inconsistencies,
           or opportunities for optimization.
         </p>
-        <div>
-          <DiscoveryPhaseImg />
-        </div>
+        <DiscoveryPhaseImg />
+        <p className={`mb-3 ${Projects.detailDescription}`}>
+          I conducted a comprehensive audit of the legacy website, involving a
+          detailed examination of various aspects. This included a thorough
+          investigation of the page hierarchy to understand the structure and
+          relationships between webpages. Simultaneously, I identified and
+          documented the diverse page templates and analyzed their layouts to
+          understand how content was presented and structured across the site in
+          accordance with ICBC's design specifications.
+        </p>
+        <p className={Projects.detailDescription}>
+          Additionally, I assessed the range of component and media types used
+          throughout the website, ensuring that each element was identified and
+          reviewed for functionality and design alignment. My audit also aimed
+          to identify and address any inconsistencies or discrepancies that
+          could potentially hinder the website's performance or user experience.
+        </p>
       </animated.div>
     </>
   );

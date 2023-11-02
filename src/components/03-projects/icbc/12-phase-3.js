@@ -25,10 +25,7 @@ const Phase3 = () => {
           if (!animate) toggle(true);
         }}
       />
-      <animated.div
-        style={fadeInUp1}
-        className={`cards align-center ${Projects.phaseDiv3}`}
-      >
+      <animated.div style={fadeInUp1} className={`cards ${Projects.phaseDiv3}`}>
         <h3 className={`text-center green-text ${Projects.detailTitle}`}>
           Content Migration
         </h3>
@@ -39,6 +36,42 @@ const Phase3 = () => {
           process to validate all page content and layouts.
         </p>
         <ContentMigrationPhaseImg />
+        <p className={`mb-3 ${Projects.detailDescription}`}>
+          I led the manual content migration process, taking charge of content
+          that couldn't be automated. This task required attention to detail and
+          a deep understanding of the content's structure and context. By
+          personally overseeing this aspect of the migration, I ensured the
+          seamless transition of content, maintaining its integrity and ensuring
+          it was correctly placed within the new system.
+        </p>
+        <p className={`mb-3 ${Projects.detailDescription}`}>
+          In addition to content migration, I also played a vital role in
+          shaping the content management strategy. I offered valuable insight on
+          necessary modifications or additions to the Contentful content models.
+          This involved identifying opportunities to optimize the content
+          structure, making it more adaptable and user-friendly. My insights
+          helped refine the architecture, ensuring that it aligned perfectly
+          with ICBC's needs.
+        </p>
+        <p className={`mb-3 ${Projects.detailDescription}`}>
+          In addition to content migration, I also played a vital role in
+          shaping the content management strategy. I offered valuable insight on
+          necessary modifications or additions to the Contentful content models.
+          This involved identifying opportunities to optimize the content
+          structure, making it more adaptable and user-friendly. My insights
+          helped refine the architecture, ensuring that it aligned perfectly
+          with ICBC's needs.
+        </p>
+        <p className={Projects.detailDescription}>
+          Furthermore, I made significant contributions to the User Acceptance
+          Testing (UAT) process, which was a critical phase in the project. By
+          contributing to the process and creating a method for testing, I
+          worked alongside stakeholders to validate all page content and
+          layouts. This meticulous testing phase allowed us to identify any
+          issues, inconsistencies, or deviations from the project's
+          requirements, ensuring that the final product met the highest
+          standards of quality and functionality.
+        </p>
       </animated.div>
     </>
   );

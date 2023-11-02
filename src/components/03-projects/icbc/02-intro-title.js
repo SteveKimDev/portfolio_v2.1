@@ -155,7 +155,7 @@ const IntroTitle = () => {
         </animated.h1>
       </div>
 
-      <div className={`${Projects.titleLine}`}>
+      <div className={`${Projects.titleLine} ${Projects.titleLineMobile}`}>
         {/* Auto */}
         <animated.h1 style={fadeInUp4}>{lettersArray[4]}</animated.h1>
         <animated.h1 style={fadeInUp5}>{lettersArray[5]}</animated.h1>
@@ -165,7 +165,7 @@ const IntroTitle = () => {
         </animated.h1>
       </div>
 
-      <div className={`${Projects.titleLine}`}>
+      <div className={`${Projects.titleLine} ${Projects.titleLineMobile}`}>
         {/* Insurance */}
         <animated.h1 style={fadeInUp8}>{lettersArray[8]}</animated.h1>
         <animated.h1 style={fadeInUp9}>{lettersArray[9]}</animated.h1>
