@@ -25,7 +25,7 @@ const PhaseTitleDescription = () => {
       />
       <animated.div style={fadeInUp1}>
         <h2 className={`green-text ${Projects.contentTitle}`}>
-          Discover, Define, and Migrate
+          Discover, define, and migrate
         </h2>
         <p className={Projects.contentDescription}>
           The Discovery and Definition phases are pivotal for a successful

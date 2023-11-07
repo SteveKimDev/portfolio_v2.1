@@ -25,7 +25,7 @@ const Phase1 = () => {
           if (!animate) toggle(true);
         }}
       />
-      <animated.div style={fadeInUp1} className={`cards ${Projects.phaseDiv1}`}>
+      <animated.div style={fadeInUp1} className={`cards ${Projects.phaseDiv}`}>
         <h3 className={`text-center green-text ${Projects.detailTitle}`}>
           Discovery Phase
         </h3>

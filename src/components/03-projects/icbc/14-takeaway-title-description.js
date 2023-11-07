@@ -9,7 +9,7 @@ const TakeawayTitleDescription = () => {
   return (
     <div>
       <h2 className={`green-text ${Projects.contentTitle}`}>
-        Transitioning from an obsolete platform to a modern website experience.
+        Transitioning from an obsolete platform to a modern website experience
       </h2>
       <p className={`mb-3 ${Projects.contentDescription}`}>
         Throughout the ICBC website migration project, my role as an Information

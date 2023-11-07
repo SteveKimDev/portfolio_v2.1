@@ -23,9 +23,10 @@ const IntroDetails = () => {
         <animated.div style={fadeInUp1} className='cards'>
           <h3 className={`green-text ${Projects.detailTitle}`}>Problem</h3>
           <p className={Projects.detailDescription}>
-            ICBC urgently needs to transition off from Sharepoint, an outdated
-            platform that has reached the end of its ability to receive updates
-            and support.
+            For NumbersUSA, its website had an outdated design that did not
+            resonate with a younger audience, confusing navigation, disorganized
+            content, and an overall layout presentation that resembled a boring
+            and unengaging newsfeed.
           </p>
         </animated.div>
       </Col>
@@ -33,9 +34,10 @@ const IntroDetails = () => {
         <animated.div style={fadeInUp2} className='cards'>
           <h3 className={`green-text ${Projects.detailTitle}`}>Objective</h3>
           <p className={Projects.detailDescription}>
-            Successfully migrate ICBC's extensive content from Sharepoint to
-            Contentful while concurrently building a one-to-one design modern
-            web platform.
+            Modernize the website by addressing the outdated design, making it
+            appealing to a younger demographic while retaining its current
+            audience. Improve navigation for enhanced user experience, and
+            restructure content for enhanced clarity.
           </p>
         </animated.div>
       </Col>

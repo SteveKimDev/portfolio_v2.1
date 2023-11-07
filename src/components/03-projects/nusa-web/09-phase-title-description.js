@@ -4,7 +4,7 @@ import { useSpring, animated } from 'react-spring';
 
 import * as Projects from '../projects.module.css';
 
-const PaingPointsTitleDescription = () => {
+const PhaseTitleDescription = () => {
   // animation on scroll
   const [animate, toggle] = useState(false);
 
@@ -25,16 +25,18 @@ const PaingPointsTitleDescription = () => {
       />
       <animated.div style={fadeInUp1}>
         <h2 className={`green-text ${Projects.contentTitle}`}>
-          Frustrations and pain points
+          A path to achieve NUSA's business goals
         </h2>
         <p className={Projects.contentDescription}>
-          Through research, interviews, and data gathering, three recurring
-          frustrations and pain points in the onboarding process faced by both
-          clients and team members were identified and prioritized.
+          During the project's planning kickoff meeting, the stakeholders
+          outlined their desired business objectives for the website project.
+          Our responsibility was to identify the obstacles preventing them from
+          currently achieving these goals and devise effective solutions to
+          overcome them.
         </p>
       </animated.div>
     </div>
   );
 };
 
-export default PaingPointsTitleDescription;
+export default PhaseTitleDescription;

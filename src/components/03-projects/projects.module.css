@@ -81,17 +81,15 @@
   margin-right: 25px;
 }
 
-.phase-div-1,
-.phase-div-2,
-.phase-div-3 {
+.phase-div,
+.phase-div-last {
   width: 65vw;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-.phase-div-1,
-.phase-div-2 {
+.phase-div {
   margin-bottom: 50px;
 }
 
@@ -239,9 +237,8 @@
   .pain-point-div-3 {
     margin: 0 0 50px;
   }
-  .phase-div-1,
-  .phase-div-2,
-  .phase-div-3 {
+  .phase-div,
+  .phase-div-last {
     width: 100%;
   }
   .persona-div-1,

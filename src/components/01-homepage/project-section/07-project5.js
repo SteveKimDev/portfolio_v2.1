@@ -14,7 +14,7 @@ const calc = (x, y) => [
 const trans = (x, y, s) =>
   `perspective(600px) rotateX(${x}deg) rotateY(${y}deg) scale(${s})`;
 
-const Project02 = () => {
+const Project05 = () => {
   // animation for image
   const [props, set] = useSpring(() => ({
     xys: [0, 0, 1],
@@ -41,7 +41,7 @@ const Project02 = () => {
 
   return (
     <div className='relative'>
-      <Link to='/first-string-digital-signup'>
+      <Link to='/numbersusa-website'>
         <animated.div
           onMouseMove={({ clientX: x, clientY: y }) => set({ xys: calc(x, y) })}
           onMouseLeave={() => set({ xys: [0, 0, 1] })}
@@ -57,29 +57,31 @@ const Project02 = () => {
             layers={[
               {
                 image:
-                  'https://res.cloudinary.com/stevekim/image/upload/q_auto/v1673393869/FSD%20Sign%20Up/cover-image_rbvjch.webp',
+                  'https://res.cloudinary.com/stevekim/image/upload/q_auto/v1699028525/NumbersUSA-web/cover-img-final_i3x2sl.webp',
                 speed: -5,
               },
             ]}
             style={{ aspectRatio: '2 / 1' }}
-            className={`${Home.image} ${Home.project2}`}
+            className={`${Home.image} ${Home.project5}`}
           />
         </animated.div>
 
         <animated.div style={fadeInUp01} className={Home.projectTitleDiv}>
-          <span className={`green-text ${Home.projectOrder}`}>03</span>
+          <span className={`green-text ${Home.projectOrder}`}>01</span>
           <span className={`${Home.projectTitle}`}>
-            First String
+            NumbersUSA
             <br />
-            Digital
+            Website
           </span>
         </animated.div>
         <animated.div style={fadeInUp02}>
-          <p className={`${Home.category}`}>Product Design &amp; Development</p>
+          <p className={`${Home.category}`}>
+            UX Design, Information Architecture &amp; Content Strategy
+          </p>
         </animated.div>
       </Link>
     </div>
   );
 };
 
-export default Project02;
+export default Project05;

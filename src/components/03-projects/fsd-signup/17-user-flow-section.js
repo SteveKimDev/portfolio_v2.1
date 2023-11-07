@@ -11,6 +11,7 @@ import UserFlow6 from './24-user-flow-6';
 import UserFlow7 from './27-user-flow-7';
 import UserFlow8 from './28-user-flow-8';
 
+import ScreenshotImgDiagram from './media/11-img-screenshot';
 import ScreenshotImg01 from './media/03-img-screenshot';
 import ScreenshotImg02 from './media/04-img-screenshot';
 import ScreenshotImg03 from './media/05-img-screenshot';
@@ -78,6 +79,11 @@ const UserFlowSection = () => {
 
       {/* screen image row */}
       <Row>
+        {/* screenshot img diagram */}
+        <Col xs={12}>
+          <ScreenshotImgDiagram />
+        </Col>
+
         {/* screenshot img 01 */}
         <Col xs={12}>
           <ScreenshotImg01 />

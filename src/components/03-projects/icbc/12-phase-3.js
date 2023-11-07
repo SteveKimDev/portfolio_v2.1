@@ -25,7 +25,10 @@ const Phase3 = () => {
           if (!animate) toggle(true);
         }}
       />
-      <animated.div style={fadeInUp1} className={`cards ${Projects.phaseDiv3}`}>
+      <animated.div
+        style={fadeInUp1}
+        className={`cards ${Projects.phaseDivLast}`}
+      >
         <h3 className={`text-center green-text ${Projects.detailTitle}`}>
           Content Migration
         </h3>

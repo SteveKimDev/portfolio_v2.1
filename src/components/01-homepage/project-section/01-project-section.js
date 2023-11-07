@@ -6,6 +6,7 @@ import Project01 from './03-project1';
 import Project02 from './04-project2';
 import Project03 from './05-project3';
 import Project04 from './06-project4';
+import Project05 from './07-project5';
 
 import * as Home from '../home.module.css';
 
@@ -23,7 +24,7 @@ const ProjectSection = () => {
       <Row className={Home.projectRow}>
         <Col sm={12}>
           {/* ICBC */}
-          <Project01 />
+          <Project05 />
         </Col>
       </Row>
 
@@ -31,18 +32,25 @@ const ProjectSection = () => {
       <Row className={Home.projectRow}>
         <Col sm={12}>
           {/* FSD */}
-          <Project02 />
+          <Project01 />
         </Col>
       </Row>
 
       {/* Row 4 */}
       <Row className={Home.projectRow}>
         <Col sm={12}>
-          <Project03 />
+          <Project02 />
         </Col>
       </Row>
 
       {/* Row 5 */}
+      <Row>
+        <Col sm={12} className={Home.projectRow}>
+          <Project03 />
+        </Col>
+      </Row>
+
+      {/* Row 6 */}
       <Row>
         <Col sm={12}>
           <Project04 />

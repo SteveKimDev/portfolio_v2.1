@@ -4,7 +4,7 @@ import { useSpring, animated } from 'react-spring';
 
 import * as Projects from '../projects.module.css';
 
-const PaingPointsTitleDescription = () => {
+const PersonasTitleDescription = () => {
   // animation on scroll
   const [animate, toggle] = useState(false);
 
@@ -25,16 +25,17 @@ const PaingPointsTitleDescription = () => {
       />
       <animated.div style={fadeInUp1}>
         <h2 className={`green-text ${Projects.contentTitle}`}>
-          Frustrations and pain points
+          Solving problems for both sides
         </h2>
         <p className={Projects.contentDescription}>
-          Through research, interviews, and data gathering, three recurring
-          frustrations and pain points in the onboarding process faced by both
-          clients and team members were identified and prioritized.
+          To effectively support clients, we also needed to support the
+          consultation representative assigned to their website project. By
+          synthesizing data from research and discovery, we identified two
+          persona types to guide the user's journey and design strategy.
         </p>
       </animated.div>
     </div>
   );
 };
 
-export default PaingPointsTitleDescription;
+export default PersonasTitleDescription;
