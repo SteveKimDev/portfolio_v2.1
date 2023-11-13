@@ -82,20 +82,14 @@ a:hover {
   }
 }
 
-.cards,
-.set-cards {
+.cards {
   box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 1);
   border-radius: 20px;
   padding: 50px;
 }
 
-.set-cards {
-  height: 600px;
-}
-
 @media (max-width: 991px) {
-  .cards,
-  .set-cards {
+  .cards {
     padding: 30px;
   }
 }

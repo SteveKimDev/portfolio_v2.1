@@ -38,8 +38,9 @@ const Description = () => {
       <div className={`${Home.description}`}>
         <animated.p style={fadeInUp1}>
           Combining product design expertise with web development experience, I
-          offer a unique perspective to create engaging, user-friendly websites,
-          utilizing both creative and technical problem-solving skills.
+          offer a unique perspective to create engaging, user-friendly web
+          applications, utilizing both creative and technical problem-solving
+          skills.
         </animated.p>
 
         {/* Link */}

@@ -2,11 +2,9 @@ import React, { useState } from 'react';
 import { Waypoint } from 'react-waypoint';
 import { useSpring, animated } from 'react-spring';
 
-// import Persona1Img from './media/01-persona-img-1';
-
 import * as Projects from '../projects.module.css';
 
-const Persona1 = () => {
+const UserFlow2 = () => {
   // animation on scroll
   const [animate, toggle] = useState(false);
 
@@ -14,7 +12,7 @@ const Persona1 = () => {
   const fadeInUp1 = useSpring({
     opacity: animate ? 1 : 0,
     translateY: animate ? '0px' : '10px',
-    delay: 100,
+    delay: 300,
     config: { duration: 1000 },
   });
   return (
@@ -27,22 +25,19 @@ const Persona1 = () => {
       />
       <animated.div
         style={fadeInUp1}
-        className={`cards ${Projects.personaDiv1}`}
+        className={`round ${Projects.flowCardsDiv}`}
       >
-        {/* Persona img */}
-        {/* <Persona1Img /> */}
-
-        {/* persona copy */}
-        <div className={`relative ${Projects.personaCopyDiv}`}>
-          <p className={`center-horizontal ${Projects.detailDescription}`}>
-            A busy restaurant owner seeks a streamlined and efficient solution
-            to establish a website for their business without adding to their
-            already demanding workload.
-          </p>
+        <div className={Projects.flowDescription}>
+          <div className={`green-text ${Projects.flowNumber}`}>2</div>
+          <div>
+            Ideate
+            <br />
+            Solutions
+          </div>
         </div>
       </animated.div>
     </>
   );
 };
 
-export default Persona1;
+export default UserFlow2;

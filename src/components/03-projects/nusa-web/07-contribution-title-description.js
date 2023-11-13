@@ -33,9 +33,8 @@ const ContributionTitleDescription = () => {
             <ul
               className={`${Projects.contentDescription} ${Projects.contentList}`}
             >
-              <li>Project Goals &amp; Pain Points</li>
-              <li>User Personas</li>
-              <li>User Journey Maps</li>
+              <li>Define Business Goals</li>
+              <li>UX Strategy</li>
               <li>Navigation Sitemap</li>
               <li>Create Account User Flow</li>
               <li>UI Wireframe &amp; Design</li>
@@ -44,7 +43,6 @@ const ContributionTitleDescription = () => {
           <Col lg={6}>
             <ul className={Projects.contentDescription}>
               <li>Page Layout Templates</li>
-              <li>Navigation Menu Prototype</li>
               <li>Content Organization</li>
               <li>Content Filter Functionality</li>
               <li>Content Migration plan</li>
