@@ -32,46 +32,40 @@ const Phase2 = () => {
           Provide easy to find relevant content:
         </h3>
         <p className={`mb-3 ${Projects.detailDescription}`}>
-          To provide easy-to-find relevant content, our approach involved
-          several key strategies. First, we addressed the issues of a
-          newsfeed-like experience by introducing a comprehensive content
-          organization system. This system included dedicated sections for
-          policy issues, possible solutions, Congress grades and comparisons,
-          and action opportunities. These distinct sections allowed visitors to
-          quickly identify and access the type of content they were interested
-          in, eliminating the cluttered and confusing newsfeed-like experience.
+          To ensure easy access to relevant content, we took a multifaceted
+          approach. Firstly, we tackled the newsfeed-like experience by
+          implementing a comprehensive content organization system. This system
+          featured dedicated sections for policy issues, potential solutions,
+          Congress grades and comparisons, and action opportunities,
+          streamlining content discovery.
         </p>
         <SitemapImg />
         <p className={`mb-3 ${Projects.detailDescription}`}>
-          In addition to this content organization, we focused on improving the
-          website's overall user experience. We incorporated intuitive menus and
-          navigation structure that facilitated seamless browsing and
-          information retrieval. This ensured that users could easily navigate
-          the website and locate the content they were looking for.
+          We also focused on enhancing the overall user experience by
+          introducing intuitive menus and navigation structures that facilitated
+          seamless browsing and information retrieval, ensuring visitors could
+          effortlessly find desired content.
         </p>
         <FilterDiagramImg />
         <p className={`mb-3 ${Projects.detailDescription}`}>
-          To further enhance content discoverability, we implemented an advanced
+          To further boost content discoverability, we introduced an advanced
           search feature with filters for topics, dates, authors, and more. This
-          advanced search functionality allowed visitors to refine their search
-          queries and quickly locate specific information within the website's
-          extensive content.
+          feature allowed users to quickly pinpoint specific information within
+          the website's extensive content.
         </p>
         <FilterScreenshotImg />
         <p className={`mb-3 ${Projects.detailDescription}`}>
           Furthermore, we employed tags and categories to efficiently categorize
-          content. By categorizing content based on relevant topics and themes,
-          we made it easier for visitors to find related resources and explore
-          content that aligned with their interests.
+          content based on relevant topics and themes, simplifying the process
+          of finding related resources.
         </p>
         <p className={`${Projects.detailDescription}`}>
-          Overall, by introducing a comprehensive content organization system,
-          improving navigation, enhancing search functionality, and utilizing
-          tags and categories, we successfully accomplished the business goal of
-          providing easy-to-find relevant content on the website. This
-          user-centered approach ensured that visitors could access the
-          information they needed quickly and efficiently, resulting in a more
-          satisfying and productive user experience.
+          Overall, our user-centered approach, including comprehensive content
+          organization, improved navigation, enhanced search functionality, and
+          effective use of tags and categories, successfully achieved the
+          business goal of providing easily accessible and relevant content on
+          the website. This approach ensured a more satisfying and efficient
+          user experience for visitors.
         </p>
       </animated.div>
     </>

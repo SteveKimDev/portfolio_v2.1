@@ -6,7 +6,8 @@ import HorizontalRule from '../components/hr';
 import IntroSection from '../components/03-projects/nusa-web/01-intro-section';
 import ContributionSection from '../components/03-projects/nusa-web/06-contribution-section';
 import PhaseSection from '../components/03-projects/nusa-web/08-phase-sction';
-import UserFlowSection from '../components/03-projects/nusa-web/14-user-flow-section';
+import ContentMigrationSection from '../components/03-projects/nusa-web/14-content-migration-section';
+import TakeawaySection from '../components/03-projects/nusa-web/17-takeaway-section';
 
 const NumbersUSAWebsite = () => (
   <Layout>
@@ -17,7 +18,9 @@ const NumbersUSAWebsite = () => (
     <HorizontalRule />
     <PhaseSection />
     <HorizontalRule />
-    <UserFlowSection />
+    <ContentMigrationSection />
+    <HorizontalRule />
+    <TakeawaySection />
   </Layout>
 );
 

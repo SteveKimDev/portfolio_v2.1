@@ -146,29 +146,64 @@ const IntroTitle = () => {
     <div className={`${Projects.titleSection}`}>
       <div className={`${Projects.titleLine}`}>
         {/* NumbersUSA */}
-        <animated.h1 style={fadeInUp0}>{lettersArray[0]}</animated.h1>
-        <animated.h1 style={fadeInUp1}>{lettersArray[1]}</animated.h1>
-        <animated.h1 style={fadeInUp2}>{lettersArray[2]}</animated.h1>
-        <animated.h1 style={fadeInUp3}>{lettersArray[3]}</animated.h1>
-        <animated.h1 style={fadeInUp4}>{lettersArray[4]}</animated.h1>
-        <animated.h1 style={fadeInUp5}>{lettersArray[5]}</animated.h1>
-        <animated.h1 style={fadeInUp6}>{lettersArray[6]}</animated.h1>
-        <animated.h1 style={fadeInUp7}>{lettersArray[7]}</animated.h1>
-        <animated.h1 style={fadeInUp8}>{lettersArray[8]}</animated.h1>
-        <animated.h1 style={fadeInUp9} className='space'>
+        <animated.h1 style={fadeInUp0} className={Projects.titleLettersMobile}>
+          {lettersArray[0]}
+        </animated.h1>
+        <animated.h1 style={fadeInUp1} className={Projects.titleLettersMobile}>
+          {lettersArray[1]}
+        </animated.h1>
+        <animated.h1 style={fadeInUp2} className={Projects.titleLettersMobile}>
+          {lettersArray[2]}
+        </animated.h1>
+        <animated.h1 style={fadeInUp3} className={Projects.titleLettersMobile}>
+          {lettersArray[3]}
+        </animated.h1>
+        <animated.h1 style={fadeInUp4} className={Projects.titleLettersMobile}>
+          {lettersArray[4]}
+        </animated.h1>
+        <animated.h1 style={fadeInUp5} className={Projects.titleLettersMobile}>
+          {lettersArray[5]}
+        </animated.h1>
+        <animated.h1 style={fadeInUp6} className={Projects.titleLettersMobile}>
+          {lettersArray[6]}
+        </animated.h1>
+        <animated.h1 style={fadeInUp7} className={Projects.titleLettersMobile}>
+          {lettersArray[7]}
+        </animated.h1>
+        <animated.h1 style={fadeInUp8} className={Projects.titleLettersMobile}>
+          {lettersArray[8]}
+        </animated.h1>
+        <animated.h1
+          style={fadeInUp9}
+          className={`space ${Projects.titleLettersMobile}`}
+        >
           {lettersArray[9]}
         </animated.h1>
       </div>
 
       <div className={`${Projects.titleLine}`}>
         {/* Website */}
-        <animated.h1 style={fadeInUp10}>{lettersArray[10]}</animated.h1>
-        <animated.h1 style={fadeInUp11}>{lettersArray[11]}</animated.h1>
-        <animated.h1 style={fadeInUp12}>{lettersArray[12]}</animated.h1>
-        <animated.h1 style={fadeInUp13}>{lettersArray[13]}</animated.h1>
-        <animated.h1 style={fadeInUp14}>{lettersArray[14]}</animated.h1>
-        <animated.h1 style={fadeInUp15}>{lettersArray[15]}</animated.h1>
-        <animated.h1 style={fadeInUp16}>{lettersArray[16]}</animated.h1>
+        <animated.h1 style={fadeInUp10} className={Projects.titleLettersMobile}>
+          {lettersArray[10]}
+        </animated.h1>
+        <animated.h1 style={fadeInUp11} className={Projects.titleLettersMobile}>
+          {lettersArray[11]}
+        </animated.h1>
+        <animated.h1 style={fadeInUp12} className={Projects.titleLettersMobile}>
+          {lettersArray[12]}
+        </animated.h1>
+        <animated.h1 style={fadeInUp13} className={Projects.titleLettersMobile}>
+          {lettersArray[13]}
+        </animated.h1>
+        <animated.h1 style={fadeInUp14} className={Projects.titleLettersMobile}>
+          {lettersArray[14]}
+        </animated.h1>
+        <animated.h1 style={fadeInUp15} className={Projects.titleLettersMobile}>
+          {lettersArray[15]}
+        </animated.h1>
+        <animated.h1 style={fadeInUp16} className={Projects.titleLettersMobile}>
+          {lettersArray[16]}
+        </animated.h1>
       </div>
     </div>
   );

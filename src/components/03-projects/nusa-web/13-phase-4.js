@@ -34,44 +34,28 @@ const Phase4 = () => {
           Donations Integration:
         </h3>
         <p className={`mb-3 ${Projects.detailDescription}`}>
-          To improve donations integration, we implemented a strategic approach
-          focused on enhancing the website's functionality and user experience.
+          To enhance donations integration, we took a strategic approach to
+          improve the website's functionality and user experience.
         </p>
         <p className={`mb-3 ${Projects.detailDescription}`}>
-          Firstly, we incorporated a prominent and easily accessible donation
-          button on the website. This button was strategically placed to ensure
-          high visibility, making it convenient for visitors to find and access.
+          We began by placing a highly visible donation button for easy access.
           Additionally, we designed intuitive and user-friendly donation forms
-          that were easy to complete. These forms minimized friction in the
-          donation process, simplifying the steps required for users to
-          contribute.
+          that streamlined the contribution process, reducing friction.
         </p>
         <DonatePageImg />
         <p className={`mb-3 ${Projects.detailDescription}`}>
-          In order to motivate visitors to make donations, we provided
-          comprehensive information about the positive impact of their
-          contributions. This included clear and compelling messaging about how
-          their financial support directly contributed to the organization's
-          mission and goals. By emphasizing the tangible outcomes of donations,
-          we aimed to inspire trust and confidence in potential donors.
+          To motivate donations, we provided comprehensive information
+          highlighting the positive impact of contributions, fostering trust in
+          potential donors. We also offered versatile donation options,
+          including one-time and recurring donations, accommodating diverse
+          preferences and financial situations.
         </p>
         <DonateFormImg />
-        <p className={`mb-3 ${Projects.detailDescription}`}>
-          Furthermore, we offered versatile donation options to cater to
-          different preferences and financial situations. Visitors had the
-          choice to make either one-time or recurring donations, providing
-          flexibility in their level of commitment. This variety of options
-          encouraged greater financial support by accommodating a broader range
-          of donor preferences.
-        </p>
         <p className={`${Projects.detailDescription}`}>
-          Overall, by incorporating a prominent donation button, optimizing
-          donation forms for ease of use, providing persuasive information about
-          the impact of contributions, and offering versatile donation choices,
-          we successfully achieved the business goal of improving donations
-          integration. This approach facilitated a more seamless and engaging
-          donation experience for website visitors, ultimately leading to
-          increased financial support for the organization.
+          By optimizing the donation process through a prominent button,
+          user-friendly forms, persuasive messaging, and versatile options, we
+          successfully improved donations integration, resulting in increased
+          financial support for the organization.
         </p>
       </animated.div>
     </>

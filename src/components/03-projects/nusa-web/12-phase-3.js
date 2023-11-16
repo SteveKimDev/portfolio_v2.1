@@ -31,47 +31,26 @@ const Phase3 = () => {
         <h3 className={`green-text ${Projects.detailTitle}`}>
           Streamlined participation in the political process:
         </h3>
-        <p className={`mb-3 ${Projects.detailDescription}`}>
-          To streamline participation in the political process, we implemented a
-          strategic approach centered on user engagement and relevance.
-        </p>
         <ActionBoardImg />
         <p className={`mb-3 ${Projects.detailDescription}`}>
-          Firstly, we introduced a user-friendly action board prominently on the
-          website. This action board displayed a variety of available actions,
-          including activities like contacting Congress and signing petitions.
-          The goal was to present visitors with a menu of engagement
-          opportunities that were easily accessible and visually appealing.
+          To streamline political participation, we adopted a user-focused
+          approach. We introduced a user-friendly action board featuring various
+          engagement options, such as contacting Congress and signing petitions,
+          for easy access.
         </p>
         <TakeActionImg />
         <p className={`mb-3 ${Projects.detailDescription}`}>
-          To ensure that visitors could seamlessly participate in the political
-          process, we provided clear and concise instructions alongside each
-          action. These instructions guided users on how to take specific
-          actions effectively, eliminating any potential confusion and reducing
-          friction in the participation process.
-        </p>
-        <p className={`mb-3 ${Projects.detailDescription}`}>
-          A key aspect of our approach involved personalization based on the
-          user's residency. We used account information to determine where the
-          user resided, and this information was used to present the most
-          relevant actions to them. For instance, if a user visited the website
-          from a specific congressional district, they would be shown actions
-          that directly pertained to their district or state. This level of
-          customization ensured that users were presented with actions that had
-          a direct impact on their local political landscape, increasing the
-          likelihood of their active engagement.
+          To facilitate seamless participation, we provided clear instructions
+          for each action, minimizing confusion and friction. Additionally, we
+          personalized the actions based on the user's location, tailoring them
+          to their congressional district or state.
         </p>
         <CongratsImg />
         <p className={`${Projects.detailDescription}`}>
-          By introducing a user-friendly action board, providing clear
-          instructions, and tailoring actions based on the user's residency, we
-          successfully streamlined participation in the political process on the
-          website. This approach not only made it easy for visitors to get
-          involved but also ensured that the actions presented were highly
-          relevant to their individual circumstances, ultimately achieving the
-          business goal of fostering seamless and impactful political
-          participation.
+          By combining a user-friendly action board, clear instructions, and
+          location-based personalization, we successfully enhanced political
+          participation on the website, achieving our goal of fostering seamless
+          and impactful engagement.
         </p>
       </animated.div>
     </>

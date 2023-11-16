@@ -2,9 +2,11 @@ import React, { useState } from 'react';
 import { Waypoint } from 'react-waypoint';
 import { useSpring, animated } from 'react-spring';
 
+import ContentMigrationImg from './media/10-content-migration-img';
+
 import * as Projects from '../projects.module.css';
 
-const UserFlow2 = () => {
+const ContentMigrationImgCard = () => {
   // animation on scroll
   const [animate, toggle] = useState(false);
 
@@ -12,7 +14,7 @@ const UserFlow2 = () => {
   const fadeInUp1 = useSpring({
     opacity: animate ? 1 : 0,
     translateY: animate ? '0px' : '10px',
-    delay: 300,
+    delay: 100,
     config: { duration: 1000 },
   });
   return (
@@ -23,21 +25,11 @@ const UserFlow2 = () => {
           if (!animate) toggle(true);
         }}
       />
-      <animated.div
-        style={fadeInUp1}
-        className={`round ${Projects.flowCardsDiv}`}
-      >
-        <div className={Projects.flowDescription}>
-          <div className={`green-text ${Projects.flowNumber}`}>2</div>
-          <div>
-            Ideate
-            <br />
-            Solutions
-          </div>
-        </div>
+      <animated.div style={fadeInUp1} className={`cards ${Projects.phaseDiv}`}>
+        <ContentMigrationImg />
       </animated.div>
     </>
   );
 };
 
-export default UserFlow2;
+export default ContentMigrationImgCard;
