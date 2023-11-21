@@ -71,7 +71,7 @@ const Project01 = () => {
         </animated.div>
         <animated.div style={fadeInUp02}>
           <p className={`${Home.category}`}>
-            Information Architect &amp; UX Design
+            Information Architecture &amp; UX Design
           </p>
         </animated.div>
       </Link>

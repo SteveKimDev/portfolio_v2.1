@@ -212,7 +212,7 @@
 
 @media (max-width: 991px) {
   .category {
-    font-size: 2vw;
+    font-size: 1rem;
     margin-top: 0;
   }
   .description {
@@ -284,13 +284,10 @@
     font-size: 5rem;
   }
   .title-letters-mobile {
-    font-size: 3.45rem !important;
+    font-size: 13.2vw !important;
   }
   .title-line-mobile {
     display: none;
-  }
-  .category {
-    font-size: 1.25rem;
   }
   .description {
     font-size: 1.5rem;
