@@ -1,8 +1,4 @@
 /* Intro Section */
-.intro-section {
-  margin-top: 50px;
-}
-
 .title-section,
 .title-line {
   display: flex;
@@ -277,11 +273,14 @@
 }
 
 @media (max-width: 575px) {
+  .intro-section {
+    margin-top: 50px;
+  }
   .title-section {
     display: block;
   }
   .title-section h1 {
-    font-size: 5rem;
+    font-size: 4.5rem;
   }
   .title-letters-mobile {
     font-size: 13.2vw !important;

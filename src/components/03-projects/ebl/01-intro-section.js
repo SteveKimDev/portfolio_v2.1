@@ -6,9 +6,11 @@ import IntroCategory from './03-intro-category';
 import IntroDescription from './04-intro-description';
 import IntroDetails from './05-intro-details';
 
+import * as Projects from '../projects.module.css';
+
 const IntroSection = () => {
   return (
-    <section className='relative'>
+    <section className={`relative ${Projects.introSection}`}>
       <Row>
         {/* Title & Category */}
         <Col xs={12}>
