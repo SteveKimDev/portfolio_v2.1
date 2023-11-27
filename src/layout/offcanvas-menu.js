@@ -66,7 +66,7 @@ function OffCanvasMenu({ name, ...props }) {
             >
               <div className='relative social-link-div'>
                 <a
-                  href='https://www.linkedin.com/in/stevekimdev'
+                  href='https://www.linkedin.com/in/stevekim10'
                   target='_blank'
                   rel='noreferrer'
                   onClick={handleClose}
@@ -76,22 +76,12 @@ function OffCanvasMenu({ name, ...props }) {
               </div>
               <div className='relative social-link-div'>
                 <a
-                  href='https://www.behance.net/stevekimdev'
+                  href='https://www.behance.net/stevekim_designs'
                   target='_blank'
                   rel='noreferrer'
                   onClick={handleClose}
                 >
                   Behance
-                </a>
-              </div>
-              <div className='relative social-link-div'>
-                <a
-                  href='https://www.instagram.com/stevekimdev'
-                  target='_blank'
-                  rel='noreferrer'
-                  onClick={handleClose}
-                >
-                  Instagram
                 </a>
               </div>
               <div className='relative social-link-div'>
