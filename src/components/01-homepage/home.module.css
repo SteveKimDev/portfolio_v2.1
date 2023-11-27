@@ -79,6 +79,10 @@
   font-family: 'Josefin Sans', sans-serif;
 }
 
+.link-div a:hover {
+  color: #8ec8f3 !important;
+}
+
 .arrow-right {
   fill: #8ec8f3;
   width: 4vw;
