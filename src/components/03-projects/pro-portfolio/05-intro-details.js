@@ -21,7 +21,7 @@ const IntroDetails = () => {
     <Row className={Projects.detailRow}>
       <Col sm={6} className={Projects.detailCol1}>
         <animated.div style={fadeInUp1} className='cards'>
-          <h3 className={`green-text ${Projects.detailTitle}`}>Objective</h3>
+          <h3 className={`accent-text ${Projects.detailTitle}`}>Objective</h3>
           <p className={Projects.detailDescription}>
             To showcase Natalie's extensive experience and selected projects as
             a Technical Project Manager, with a simple and intuitive layout that
@@ -33,7 +33,7 @@ const IntroDetails = () => {
       </Col>
       <Col sm={6} className={Projects.detailCol2}>
         <animated.div style={fadeInUp2} className='cards'>
-          <h3 className={`green-text ${Projects.detailTitle}`}>Result</h3>
+          <h3 className={`accent-text ${Projects.detailTitle}`}>Result</h3>
           <p className={Projects.detailDescription}>
             To attract the attention of potential employers by presenting
             Natalie's personal brand and professional accomplishments in a fresh

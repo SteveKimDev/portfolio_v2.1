@@ -8,7 +8,7 @@ import * as Projects from '../projects.module.css';
 const TakeawayCopy = () => {
   return (
     <div>
-      <h2 className={`green-text ${Projects.contentTitle}`}>
+      <h2 className={`accent-text ${Projects.contentTitle}`}>
         Successfully launched website after 2 months
       </h2>
       <p className={Projects.contentDescription}>
@@ -24,7 +24,7 @@ const TakeawayCopy = () => {
       {/* Link */}
       <div className={`${Projects.linkDiv}`}>
         <Link to='/#projects'>
-          Back to Selected Projects
+          Back to Case Studies
           <ArrowRight className={`${Projects.arrowRight}`} />
         </Link>
       </div>

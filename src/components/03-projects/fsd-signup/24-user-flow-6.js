@@ -28,7 +28,7 @@ const UserFlow6 = () => {
         className={`round ${Projects.flowCardsDiv}`}
       >
         <div className={Projects.flowDescription}>
-          <div className={`green-text ${Projects.flowNumber}`}>6</div>
+          <div className={`accent-text ${Projects.flowNumber}`}>6</div>
           <div>
             Subscription
             <br />

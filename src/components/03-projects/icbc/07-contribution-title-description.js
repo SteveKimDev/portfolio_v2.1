@@ -25,7 +25,7 @@ const ContributionTitleDescription = () => {
         }}
       />
       <animated.div style={fadeInUp1}>
-        <h2 className={`green-text ${Projects.contentTitle}`}>
+        <h2 className={`accent-text ${Projects.contentTitle}`}>
           Responsibilities and deliverables
         </h2>
         <Row>

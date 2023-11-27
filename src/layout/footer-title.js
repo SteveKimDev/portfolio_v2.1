@@ -124,47 +124,47 @@ const FooterTitle = () => {
       />
       <div className='title-line'>
         {/* Let's */}
-        <animated.p style={fadeInUp0} className='green-text'>
+        <animated.p style={fadeInUp0} className='accent-text'>
           {LetsConnect[0]}
         </animated.p>
-        <animated.p style={fadeInUp1} className='green-text'>
+        <animated.p style={fadeInUp1} className='accent-text'>
           {LetsConnect[1]}
         </animated.p>
-        <animated.p style={fadeInUp2} className='green-text'>
+        <animated.p style={fadeInUp2} className='accent-text'>
           {LetsConnect[2]}
         </animated.p>
-        <animated.p style={fadeInUp3} className='green-text'>
+        <animated.p style={fadeInUp3} className='accent-text'>
           {LetsConnect[3]}
         </animated.p>
-        <animated.p style={fadeInUp4} className='green-text space'>
+        <animated.p style={fadeInUp4} className='accent-text space'>
           {LetsConnect[4]}
         </animated.p>
       </div>
 
       <div className='title-line'>
         {/* Connect */}
-        <animated.p style={fadeInUp5} className='green-text'>
+        <animated.p style={fadeInUp5} className='accent-text'>
           {LetsConnect[5]}
         </animated.p>
-        <animated.p style={fadeInUp6} className='green-text'>
+        <animated.p style={fadeInUp6} className='accent-text'>
           {LetsConnect[6]}
         </animated.p>
-        <animated.p style={fadeInUp7} className='green-text'>
+        <animated.p style={fadeInUp7} className='accent-text'>
           {LetsConnect[7]}
         </animated.p>
-        <animated.p style={fadeInUp8} className='green-text'>
+        <animated.p style={fadeInUp8} className='accent-text'>
           {LetsConnect[8]}
         </animated.p>
-        <animated.p style={fadeInUp9} className='green-text'>
+        <animated.p style={fadeInUp9} className='accent-text'>
           {LetsConnect[9]}
         </animated.p>
-        <animated.p style={fadeInUp10} className='green-text'>
+        <animated.p style={fadeInUp10} className='accent-text'>
           {LetsConnect[10]}
         </animated.p>
-        <animated.p style={fadeInUp11} className='green-text'>
+        <animated.p style={fadeInUp11} className='accent-text'>
           {LetsConnect[11]}
         </animated.p>
-        <animated.p style={fadeInUp12} className='green-text'>
+        <animated.p style={fadeInUp12} className='accent-text'>
           {LetsConnect[12]}
         </animated.p>
       </div>

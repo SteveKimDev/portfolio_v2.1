@@ -30,7 +30,7 @@ const Phase4 = () => {
         style={fadeInUp1}
         className={`cards ${Projects.phaseDivLast}`}
       >
-        <h3 className={`green-text ${Projects.detailTitle}`}>
+        <h3 className={`accent-text ${Projects.detailTitle}`}>
           Donations Integration:
         </h3>
         <p className={`mb-3 ${Projects.detailDescription}`}>

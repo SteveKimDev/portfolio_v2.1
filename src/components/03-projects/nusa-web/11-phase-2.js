@@ -28,7 +28,7 @@ const Phase2 = () => {
         }}
       />
       <animated.div style={fadeInUp1} className={`cards ${Projects.phaseDiv}`}>
-        <h3 className={`green-text ${Projects.detailTitle}`}>
+        <h3 className={`accent-text ${Projects.detailTitle}`}>
           Provide easy to find relevant content:
         </h3>
         <p className={`mb-3 ${Projects.detailDescription}`}>

@@ -29,7 +29,7 @@ const Phase3 = () => {
         style={fadeInUp1}
         className={`cards ${Projects.phaseDivLast}`}
       >
-        <h3 className={`text-center green-text ${Projects.detailTitle}`}>
+        <h3 className={`text-center accent-text ${Projects.detailTitle}`}>
           Content Migration
         </h3>
         <p className={`text-center ${Projects.detailDescription}`}>

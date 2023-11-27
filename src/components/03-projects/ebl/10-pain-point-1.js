@@ -27,7 +27,7 @@ const PainPoint1 = () => {
         style={fadeInUp1}
         className={`cards align-center ${Projects.painPointDiv1}`}
       >
-        <h3 className={`text-center green-text ${Projects.detailTitle}`}>
+        <h3 className={`text-center accent-text ${Projects.detailTitle}`}>
           Outdated Content
         </h3>
         <p className={`text-center ${Projects.detailDescription}`}>

@@ -5,7 +5,7 @@ import * as Projects from '../../projects.module.css';
 const VideoEblScroll = () => {
   return (
     <div className={Projects.mobileFirstImgDiv3}>
-      <p className={`green-text text-center ${Projects.contentDescription}`}>
+      <p className={`accent-text text-center ${Projects.contentDescription}`}>
         Mobile Experience
       </p>
       <div className={`cards ${Projects.mobileFirstMediaDiv}`}>

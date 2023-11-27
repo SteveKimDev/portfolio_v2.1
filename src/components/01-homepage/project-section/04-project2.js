@@ -67,7 +67,7 @@ const Project02 = () => {
         </animated.div>
 
         <animated.div style={fadeInUp01} className={Home.projectTitleDiv}>
-          <span className={`green-text ${Home.projectOrder}`}>03</span>
+          <span className={`accent-text ${Home.projectOrder}`}>03</span>
           <span className={`${Home.projectTitle}`}>
             First String
             <br />

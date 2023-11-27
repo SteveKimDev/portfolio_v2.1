@@ -45,7 +45,7 @@ const Description = () => {
 
         {/* Link */}
         <animated.div style={fadeInUp2} className={`${Home.linkDiv}`}>
-          <Link to='/about'>
+          <Link to='/about' className='accent-text'>
             Learn more about me
             <ArrowRight className={`${Home.arrowRight}`} />
           </Link>

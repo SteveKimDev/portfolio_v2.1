@@ -13,7 +13,7 @@
 }
 
 .title-line h1 {
-  color: #61d0d0;
+  color: #8ec8f3;
   font-size: 8vw;
 }
 
@@ -60,12 +60,12 @@
 }
 
 .approach-subtitle {
-  color: #61d0d0;
+  color: #8ec8f3;
   font-size: 2vw;
 }
 
 .testimonial-subtitle {
-  color: #61d0d0;
+  color: #8ec8f3;
   font-size: 1.5vw;
 }
 
@@ -97,7 +97,7 @@
 }
 
 .experiences-item-title button:not(.collapsed)::after {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%2361d0d0'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%238ec8f3'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
 }
 
 .experiences-item-description {
@@ -111,7 +111,7 @@
 }
 
 .experiences-item-description ul li::marker {
-  color: #61d0d0 !important;
+  color: #8ec8f3 !important;
 }
 
 @media (max-width: 991px) {

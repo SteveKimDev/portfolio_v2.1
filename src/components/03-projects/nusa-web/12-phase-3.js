@@ -28,7 +28,7 @@ const Phase3 = () => {
         }}
       />
       <animated.div style={fadeInUp1} className={`cards ${Projects.phaseDiv}`}>
-        <h3 className={`green-text ${Projects.detailTitle}`}>
+        <h3 className={`accent-text ${Projects.detailTitle}`}>
           Streamlined participation in the political process:
         </h3>
         <ActionBoardImg />

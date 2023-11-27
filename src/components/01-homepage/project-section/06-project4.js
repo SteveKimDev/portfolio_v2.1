@@ -67,7 +67,7 @@ const Project04 = () => {
         </animated.div>
 
         <animated.div style={fadeInUp01} className={Home.projectTitleDiv}>
-          <span className={`green-text ${Home.projectOrder}`}>05</span>
+          <span className={`accent-text ${Home.projectOrder}`}>05</span>
           <span className={`${Home.projectTitle}`}>
             Professional
             <br />

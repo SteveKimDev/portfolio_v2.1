@@ -24,7 +24,7 @@ const UserFlowTitleDescription = () => {
         }}
       />
       <animated.div style={fadeInUp1}>
-        <h2 className={`green-text ${Projects.contentTitle}`}>
+        <h2 className={`accent-text ${Projects.contentTitle}`}>
           Content migration Strategy
         </h2>
         <p className={`mb-3 ${Projects.contentDescription}`}>

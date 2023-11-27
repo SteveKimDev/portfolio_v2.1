@@ -24,7 +24,7 @@ const MobileFirstCopy = () => {
         }}
       />
       <animated.div style={fadeInUp1}>
-        <h2 className={`green-text ${Projects.contentTitle}`}>
+        <h2 className={`accent-text ${Projects.contentTitle}`}>
           Designed for a seamless and usuable mobile experience
         </h2>
         <p className={Projects.contentDescription}>

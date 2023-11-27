@@ -26,7 +26,7 @@ const Phase1 = () => {
         }}
       />
       <animated.div style={fadeInUp1} className={`cards ${Projects.phaseDiv}`}>
-        <h3 className={`text-center green-text ${Projects.detailTitle}`}>
+        <h3 className={`text-center accent-text ${Projects.detailTitle}`}>
           Discovery Phase
         </h3>
         <p className={`text-center ${Projects.detailDescription}`}>

@@ -24,7 +24,6 @@
 }
 
 .subtitle-line span {
-  color: #61d0d0;
   font-size: 4vw;
   font-weight: 200;
 }
@@ -75,14 +74,13 @@
 }
 
 .link-div a {
-  color: #61d0d0;
   font-size: 3.4vw;
   font-weight: 200;
   font-family: 'Josefin Sans', sans-serif;
 }
 
 .arrow-right {
-  fill: #61d0d0;
+  fill: #8ec8f3;
   width: 4vw;
   height: 4vh;
   margin-left: 5px;
@@ -235,8 +233,9 @@
 }
 
 .project-order {
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-family: 'Josefin Sans', sans-serif;
+  font-weight: 500;
 }
 
 .project-title {
@@ -245,7 +244,7 @@
   font-weight: 500;
   line-height: 100%;
   display: inline-block;
-  margin-left: 30px;
+  margin-left: 25px;
 }
 
 .category {

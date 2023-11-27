@@ -233,48 +233,102 @@ const Subtitle = () => {
       {/* line 1 */}
       <div className={Home.subtitleLine}>
         {/* With */}
-        <animated.span style={fadeInUp0}>{subtitle[0]}</animated.span>
-        <animated.span style={fadeInUp1}>{subtitle[1]}</animated.span>
-        <animated.span style={fadeInUp2}>{subtitle[2]}</animated.span>
-        <animated.span style={fadeInUp3} className='space'>
+        <animated.span style={fadeInUp0} className='accent-text'>
+          {subtitle[0]}
+        </animated.span>
+        <animated.span style={fadeInUp1} className='accent-text'>
+          {subtitle[1]}
+        </animated.span>
+        <animated.span style={fadeInUp2} className='accent-text'>
+          {subtitle[2]}
+        </animated.span>
+        <animated.span style={fadeInUp3} className='accent-text space'>
           {subtitle[3]}
         </animated.span>
 
         {/* Web */}
-        <animated.span style={fadeInUp4}>{subtitle[4]}</animated.span>
-        <animated.span style={fadeInUp5}>{subtitle[5]}</animated.span>
-        <animated.span style={fadeInUp6}>{subtitle[6]}</animated.span>
+        <animated.span style={fadeInUp4} className='accent-text'>
+          {subtitle[4]}
+        </animated.span>
+        <animated.span style={fadeInUp5} className='accent-text'>
+          {subtitle[5]}
+        </animated.span>
+        <animated.span style={fadeInUp6} className='accent-text'>
+          {subtitle[6]}
+        </animated.span>
       </div>
 
       {/* line 2 */}
       <div className={Home.subtitleLine}>
         {/* Developement */}
-        <animated.span style={fadeInUp7}>{subtitle[7]}</animated.span>
-        <animated.span style={fadeInUp8}>{subtitle[8]}</animated.span>
-        <animated.span style={fadeInUp9}>{subtitle[9]}</animated.span>
-        <animated.span style={fadeInUp10}>{subtitle[10]}</animated.span>
-        <animated.span style={fadeInUp11}>{subtitle[11]}</animated.span>
-        <animated.span style={fadeInUp12}>{subtitle[12]}</animated.span>
-        <animated.span style={fadeInUp13}>{subtitle[13]}</animated.span>
-        <animated.span style={fadeInUp14}>{subtitle[14]}</animated.span>
-        <animated.span style={fadeInUp15}>{subtitle[15]}</animated.span>
-        <animated.span style={fadeInUp16}>{subtitle[16]}</animated.span>
-        <animated.span style={fadeInUp17}>{subtitle[17]}</animated.span>
+        <animated.span style={fadeInUp7} className='accent-text'>
+          {subtitle[7]}
+        </animated.span>
+        <animated.span style={fadeInUp8} className='accent-text'>
+          {subtitle[8]}
+        </animated.span>
+        <animated.span style={fadeInUp9} className='accent-text'>
+          {subtitle[9]}
+        </animated.span>
+        <animated.span style={fadeInUp10} className='accent-text'>
+          {subtitle[10]}
+        </animated.span>
+        <animated.span style={fadeInUp11} className='accent-text'>
+          {subtitle[11]}
+        </animated.span>
+        <animated.span style={fadeInUp12} className='accent-text'>
+          {subtitle[12]}
+        </animated.span>
+        <animated.span style={fadeInUp13} className='accent-text'>
+          {subtitle[13]}
+        </animated.span>
+        <animated.span style={fadeInUp14} className='accent-text'>
+          {subtitle[14]}
+        </animated.span>
+        <animated.span style={fadeInUp15} className='accent-text'>
+          {subtitle[15]}
+        </animated.span>
+        <animated.span style={fadeInUp16} className='accent-text'>
+          {subtitle[16]}
+        </animated.span>
+        <animated.span style={fadeInUp17} className='accent-text'>
+          {subtitle[17]}
+        </animated.span>
       </div>
 
       {/* line 3 */}
       <div className={Home.subtitleLine}>
         {/* Experience */}
-        <animated.span style={fadeInUp18}>{subtitle[18]}</animated.span>
-        <animated.span style={fadeInUp19}>{subtitle[19]}</animated.span>
-        <animated.span style={fadeInUp20}>{subtitle[20]}</animated.span>
-        <animated.span style={fadeInUp21}>{subtitle[21]}</animated.span>
-        <animated.span style={fadeInUp22}>{subtitle[22]}</animated.span>
-        <animated.span style={fadeInUp23}>{subtitle[23]}</animated.span>
-        <animated.span style={fadeInUp24}>{subtitle[24]}</animated.span>
-        <animated.span style={fadeInUp25}>{subtitle[25]}</animated.span>
-        <animated.span style={fadeInUp26}>{subtitle[26]}</animated.span>
-        <animated.span style={fadeInUp27}>{subtitle[27]}</animated.span>
+        <animated.span style={fadeInUp18} className='accent-text'>
+          {subtitle[18]}
+        </animated.span>
+        <animated.span style={fadeInUp19} className='accent-text'>
+          {subtitle[19]}
+        </animated.span>
+        <animated.span style={fadeInUp20} className='accent-text'>
+          {subtitle[20]}
+        </animated.span>
+        <animated.span style={fadeInUp21} className='accent-text'>
+          {subtitle[21]}
+        </animated.span>
+        <animated.span style={fadeInUp22} className='accent-text'>
+          {subtitle[22]}
+        </animated.span>
+        <animated.span style={fadeInUp23} className='accent-text'>
+          {subtitle[23]}
+        </animated.span>
+        <animated.span style={fadeInUp24} className='accent-text'>
+          {subtitle[24]}
+        </animated.span>
+        <animated.span style={fadeInUp25} className='accent-text'>
+          {subtitle[25]}
+        </animated.span>
+        <animated.span style={fadeInUp26} className='accent-text'>
+          {subtitle[26]}
+        </animated.span>
+        <animated.span style={fadeInUp27} className='accent-text'>
+          {subtitle[27]}
+        </animated.span>
       </div>
     </div>
   );

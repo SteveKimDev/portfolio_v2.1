@@ -28,7 +28,7 @@ const UserFlow3 = () => {
         className={`round ${Projects.flowCardsDiv}`}
       >
         <div className={Projects.flowDescription}>
-          <div className={`green-text ${Projects.flowNumber}`}>3</div>
+          <div className={`accent-text ${Projects.flowNumber}`}>3</div>
           <div>
             Choose
             <br />

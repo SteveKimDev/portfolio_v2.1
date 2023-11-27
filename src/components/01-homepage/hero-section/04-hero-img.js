@@ -14,7 +14,7 @@ const HeroImg = () => {
   return (
     <animated.div style={expand}>
       <StaticImage
-        src='https://res.cloudinary.com/stevekim/image/upload/q_auto/v1654665926/about-img-1_mznvio.webp'
+        src='https://res.cloudinary.com/stevekim/image/upload/q_auto/v1700686381/about-img-3_x4kraq.webp'
         alt='hero img'
         className={Home.heroImg}
       />

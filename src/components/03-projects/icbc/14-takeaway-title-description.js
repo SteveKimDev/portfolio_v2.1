@@ -8,7 +8,7 @@ import * as Projects from '../projects.module.css';
 const TakeawayTitleDescription = () => {
   return (
     <div>
-      <h2 className={`green-text ${Projects.contentTitle}`}>
+      <h2 className={`accent-text ${Projects.contentTitle}`}>
         Transitioning from an obsolete platform to a modern website experience
       </h2>
       <p className={`mb-3 ${Projects.contentDescription}`}>
@@ -37,7 +37,7 @@ const TakeawayTitleDescription = () => {
       {/* Link */}
       <div className={`${Projects.linkDiv}`}>
         <Link to='/#projects'>
-          Back to Selected Projects
+          Back to Case Studies
           <ArrowRight className={`${Projects.arrowRight}`} />
         </Link>
       </div>

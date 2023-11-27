@@ -6,7 +6,7 @@ import * as Projects from '../../projects.module.css';
 const HomePageKoreanImg = () => {
   return (
     <div className={Projects.mobileFirstImgDiv1}>
-      <p className={`green-text text-center ${Projects.contentDescription}`}>
+      <p className={`accent-text text-center ${Projects.contentDescription}`}>
         Korean Version
       </p>
       <div className={`cards ${Projects.mobileFirstMediaDiv}`}>

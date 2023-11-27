@@ -24,7 +24,7 @@ const PersonasTitleDescription = () => {
         }}
       />
       <animated.div style={fadeInUp1}>
-        <h2 className={`green-text ${Projects.contentTitle}`}>
+        <h2 className={`accent-text ${Projects.contentTitle}`}>
           Solving problems for both sides
         </h2>
         <p className={Projects.contentDescription}>

@@ -24,7 +24,7 @@ const UserFlowTitleDescription = () => {
         }}
       />
       <animated.div style={fadeInUp1}>
-        <h2 className={`green-text ${Projects.contentTitle}`}>
+        <h2 className={`accent-text ${Projects.contentTitle}`}>
           A path to improving overall experience
         </h2>
         <p className={Projects.contentDescription}>
