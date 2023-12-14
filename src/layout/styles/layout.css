@@ -354,7 +354,7 @@ a:hover {
 }
 
 .email-div {
-  font-size: 7.05vw;
+  font-size: 8.85vw;
   letter-spacing: 1px;
   margin-top: -30px;
 }
@@ -412,7 +412,7 @@ a:hover {
 
 @media (max-width: 991px) {
   .email-div {
-    font-size: 7.8vw;
+    font-size: 9.8vw;
     margin-top: -20px;
   }
   .email-div a::after {
@@ -435,7 +435,7 @@ a:hover {
     line-height: 50%;
   }
   .email-div {
-    font-size: 7.35vw;
+    font-size: 9.2vw;
     margin-top: 0;
     text-align: center;
   }

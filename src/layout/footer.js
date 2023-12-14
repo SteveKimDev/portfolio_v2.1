@@ -59,7 +59,7 @@ const FooterSection = () => {
         }}
         className='relative email-div'
       >
-        <a href='mailto:stevekimdev.com'>me@stevekimdev.com</a>
+        <a href='mailto:steve@stevekim.io'>steve@stevekim.io</a>
       </animated.div>
 
       {/* Social Links */}

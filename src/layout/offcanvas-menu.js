@@ -49,7 +49,7 @@ function OffCanvasMenu({ name, ...props }) {
             </Col>
             <Col xs={12}>
               <div className='relative nav-link-div nav-link-div-4'>
-                <a href='mailto:me@stevekimdev.com' onClick={handleClose}>
+                <a href='mailto:steve@stevekim.io' onClick={handleClose}>
                   CONTACT
                 </a>
               </div>
