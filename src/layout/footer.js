@@ -66,7 +66,7 @@ const FooterSection = () => {
       <animated.div style={fadeInUp2} className='social-div'>
         <span className='social-span'>
           <a
-            href='https://www.linkedin.com/in/stevekim10'
+            href='https://www.linkedin.com/in/stevekim-io'
             target='_blank'
             rel='noreferrer'
           >
@@ -75,7 +75,7 @@ const FooterSection = () => {
         </span>
         <span className='social-span'>
           <a
-            href='https://www.behance.net/stevekim_designs'
+            href='https://www.behance.net/stevekim-io'
             target='_blank'
             rel='noreferrer'
           >

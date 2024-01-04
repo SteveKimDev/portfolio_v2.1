@@ -25,7 +25,7 @@ const MobileFirstCopy = () => {
       />
       <animated.div style={fadeInUp1}>
         <h2 className={`accent-text ${Projects.contentTitle}`}>
-          Designed for a seamless and usuable mobile experience
+          Designed for a seamless and useable mobile experience
         </h2>
         <p className={Projects.contentDescription}>
           Given the high percentage (over 95%) of the Korean population using
